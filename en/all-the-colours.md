@@ -1,0 +1,1 @@
+1. Take a look at your **stylesheet**. This is the file that has **.css** in the name.
