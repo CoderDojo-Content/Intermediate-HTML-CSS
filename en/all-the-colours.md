@@ -3,9 +3,11 @@
    ```
         background-color: #9ADC32;
    ```
-
    * If you are using a Mac, the **\#** is typed by holding the **alt** key and the number **3** key together.
-3. 
+3. When you click Run, your website should have a green background. 
+4. As you have seen, you can type in many different colour names as words and the browser will recognise them. But a more common way to set colours is to use a code like the one above, called a **HEX** code.
+5. Try it yourself: Go to dojo.soy/COLOURS-LIST-TODO and choose a colour for your website. But instead of typing the name of the colour, type in the HEX code.
+ * The HEX colour code must start with a \# and contains 6 characters. The characters can be any number from 0-9 and any letter from A-F.
 4. Fun exercise: Take your six-digit date of birth and put a `#` symbol in front to make your own unique personal colour code! Try it out in your stylesheet–what colour did you get?
 
 
