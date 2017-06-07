@@ -5,7 +5,7 @@
    ```
 
    * If you are using a Mac, the **\#** is typed by holding the **alt** key and the number **3** key together.
-3. When you click Run, your website should have a green background. 
+3. When you click Run, your website should have a green background. ![](assets/HexColorFirstGreen.png)
 4. As you have seen, you can type in many different colour names as words and the browser will recognise them. But a more common way to set colours is to use a code like the one above, called a **HEX** code.
 5. Try it yourself: Go to dojo.soy/COLOURS-LIST-TODO and choose a colour for your website. But instead of typing the name of the colour, type in the HEX code.
 6. HEX codes allow you to mix any colour, even if it's not on any list of colours. Try making up your own colour code
@@ -16,7 +16,7 @@
  * If you wrote the colour `#9ADC32` using plain RGB numbers, it would be `154,205,50`.
 8. You don't need to worry too much about learning to count with Hexadecimal numbers. There are plenty of colour picking tools that help you get the HEX code for any colour you want. ![](assets/W3ColorPicker.png)
 9. Go to dojo.soy/W3-SCHOOLS-COLOUR-PICKER-TODO and try out the colour picker pictured above to choose some HEX colour codes to use on your website.
-6. Fun exercise: Take your six-digit date of birth and put a `#` symbol in front to make your own unique personal colour code! Try it out in your stylesheet–what colour did you get?
+6. Fun exercise: Take your six-digit date of birth and put a `#` symbol in front to make your own unique personal colour code! Try it out in your stylesheet–what colour did you get? ![](assets/HexColorDOB.png)
 
 
 
