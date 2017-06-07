@@ -1,0 +1,1 @@
+1. Using Inspect Element and F12 dev tools
