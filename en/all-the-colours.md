@@ -12,8 +12,10 @@
    * The code must start with a `#`. This tells the browser that it is a HEX code instead of a colour name.
    * The rest of the code is made up of six characters. They can be  any number from 0-9 and any letter from A-F.
 7. How does it work? Every colour is made by mixing three colors: **Red**, **Green**, and **Blue**. You may have seen this written down as **RGB**. Each of these colours is represented by two of the six digits in your code. The higher the number, the more of the colour there is.
-8. What about those letters?! If you wrote the colour `#9ADC32` using plain RGB numbers, it would be `154,205,50`. **Hexadecimal** is a special way of counting that uses the letters A-F as **extra digits** higher than 9. This makes the numbers shorter to write. Colours go from 0 up to 255, or in Hexadecimal: from 00 up to FF.
-8. You don't need to worry too much about learning to count with Hexadecimal numbers If you want to learn more about Hexadecimal numbers and colour codes, go to .....TODO.....
+8. What's going on with those letters?! **Hexadecimal** is a special way of counting that uses the letters A-F as **extra digits** higher than 9. This makes the numbers shorter to write. Colours go from 0 up to 255, or in Hexadecimal: from 00 up to FF.
+ * If you wrote the colour `#9ADC32` using plain RGB numbers, it would be `154,205,50`.
+8. You don't need to worry too much about learning to count with Hexadecimal numbers. There are plenty of colour picking tools that help you get the HEX code for any colour you want. 
+9. Go to dojo.soy/W3-SCHOOLS-COLOUR-PICKER-TODO and try out the colour picker pictured above.
 6. Fun exercise: Take your six-digit date of birth and put a `#` symbol in front to make your own unique personal colour code! Try it out in your stylesheet–what colour did you get?
 
 
