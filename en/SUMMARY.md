@@ -4,4 +4,5 @@
 * All the colours!
 * Styling individual elements
 * Styling by class
+* Developer Tools
 
