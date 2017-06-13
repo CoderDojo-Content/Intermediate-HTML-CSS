@@ -17,4 +17,17 @@
     * Notice the `#` in front of the rule.
     * The name of the rule should exactly match the name you put in the element's `id` attribute
     * This styling apples to only one individual element on your website.
+4. You can style any individual element on your website by giving it an `id` and using the ID selector in your stylesheet. Let's do one for the `body` of the homepage.
+5. Go to index.html and add an `id` to the `body` tag.
+    ```
+        <body id="frontPage">
+    ```
+6. In the stylesheet, add CSS rules for the body of the homepage.
+    ```
+        #frontPage {
+            background-color: pink;
+            font-size: 14px;
+        }
+    ```
+    * When you style using the ID selector like this, you can put in any rules you like for the element you are styling.
 4. Try giving another element an `id` and styling that element using the id selector with `#` as above.
