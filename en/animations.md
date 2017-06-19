@@ -10,3 +10,14 @@
     ```
         animate: spin-around 2s 3;
     ```
+4. Go to the bottom of your CSS file and add the following code
+    ```
+        @keyframes spin-around {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    ```
