@@ -23,5 +23,3 @@
         animate: spin-around 2s 3;
     ```
 5. **TODO** EXPLAIN THE PERCENTAGES AND STUFF
-
-7.41 into video
