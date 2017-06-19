@@ -4,8 +4,7 @@
 4. If your page contains more than one separate item of content that are not really connected, put each one between its own set of `<article></article>` tags instead of putting one set of the tags around the whole lot.
  * **content** means information or pictures or any other "stuff" you have on the page!
  5. You can totally have `article`s inside `articles`: for example one big piece of content that's made up of a few smaller ones.
-4. You can also break your `article` up into chunks. For example, you might have a few pieces of information that are sort of separate but are all connected, belonging to the one article. For this you've got the `<section></section>` tags.
-
-5. ***TODO*** example of the whole page I suppose?
- 
-10. Confused about this container thing? Remember when you created a menu and then put it in between `<nav> </nav>` tags. This is another example of one of these containers. You simply put special tags around your menu to tell the browser that everything in between them belongs together. Like organising things in boxes and shelves in your home!
+4. You can also break your `article` up into chunks or sections if you need to. The `<section></section>` tags are there for exactly this!
+5. ***TODO*** Here's an example of a page that uses `article` and `section` tags to organise information.
+6. Confused about this container thing? Remember when you created a menu and then put it in between `<nav> </nav>` tags. This is another example of one of these containers. What you are doing is telling the browser that everything in between these special tags belongs together. Like organising things in boxes and shelves in your home!
+7. Once your content has been organised into `articles` and `sections` you can create CSS rules in the stylesheet to control how the different bits look! Here's an example of some CSS styling of the `article` and `section` containers. See if you can understand it and make your own.
