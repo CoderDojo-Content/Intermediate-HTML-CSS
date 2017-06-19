@@ -6,4 +6,5 @@
 * [Styling by class](styling-by-class.md)
 * [Developer Tools](developer-tools.md)
 * [Organising your page](grouping-elements-together.md)
+* [Animations](animations.md)
 
