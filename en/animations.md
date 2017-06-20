@@ -19,7 +19,7 @@
         #my-cool-heading {
             background-color: #ffe680;
             border-style: solid;
-            border-size: 3px;
+            border-width: 3px;
             padding: 20px;
         }
     ```
