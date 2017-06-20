@@ -12,7 +12,8 @@
     * This code creates an animation called "spin-around" that you can add to any element on your website. What do you think it does?
 2. **TODO** Go to the file index.html and add the following code.
     ```
-        <h1 id="my-cool-heading">Hey cool, animations!!</h1>
+        <h1>Hey, now you can do animations!</h1>
+        <h1 id="my-cool-heading">Cool!!</h1>
     ```
 3. Go to the stylesheet and create CSS rules for the element, using the ID selector:
     ```
@@ -20,7 +21,9 @@
             background-color: #ffe680;
             border-style: solid;
             border-width: 3px;
+            width: 80px;
             padding: 20px;
+            width: 80px;
         }
     ```
 4. Now add the following rule to the same set of rules:
