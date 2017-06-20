@@ -25,6 +25,6 @@
     ```
 4. Now add the following rule to the same set of rules:
     ```
-        animate: spin-around 2s 3;
+        animation: spin-around 2s 3;
     ```
 5. **TODO** EXPLAIN THE PERCENTAGES AND STUFF
