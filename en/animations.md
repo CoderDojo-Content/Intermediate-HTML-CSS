@@ -10,7 +10,7 @@
         }
     ```
     * This code creates an animation called "spin-around" that you can add to any element on your website. What do you think it does?
-2. **TODO** Go to the file index.html and add the following code.
+2. Go to the file index.html and add the following code:
     ```
         <h1>Hey, now you can do animations!</h1>
         <h1 id="my-cool-heading">Cool!!</h1>
