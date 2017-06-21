@@ -8,12 +8,12 @@
     img {
       border-radius: 50%;
       border-style: dotted;
-      border-width: 3px;
+      border-width: 4px;
       border-color: #ffe680;
     }
     img:hover {
       border-style: solid;
-      border-width: 3px;
+      border-width: 4px;
       border-color: pink;
     }
   ```  
