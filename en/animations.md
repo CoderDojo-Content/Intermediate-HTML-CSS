@@ -79,3 +79,4 @@
  * Add some code to the `spin-around` animation to make the text change colour. Remember the property for text colour is called `color` 
  * Add another in-between value, for example 75%, which sets different rotation and colour values.
 13. You can put the `animation` properties into the CSS rules for any element on your website. How about making one of your images spin around?
+ * To learn about more things you can do with animation, visit dojo.soy/css-animation**TODO-LINK**
