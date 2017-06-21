@@ -28,7 +28,9 @@
     ```
 4. Now add the following rule to the same set of rules:
     ```
-        animation: my-first-animation 2s 3;
+        animation-name: my-first-animation;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
     ```
 5. Run your code to see what happens! Did the colours change? 
 6. Let's add some movement! Change your animation so that it looks like this
@@ -50,7 +52,6 @@
         @keyframes spin-around {
             0% {
                 background-color: #ffe680;
-
                 transform: rotate(0deg);
             }
             50% {
@@ -58,31 +59,27 @@
             }
             100% {
                 background-color: #ffe680;
-
                 transform: rotate(360deg);
             }
         }
     ```
     * You can set as many in between values as you like using different percentages
-2. Go to the file index.html and add the following code:
+8. Go to the file index.html and add the following code below the new stuff:
     ```
-        <h1>Hey, now you can do animations!</h1>
-        <h1 id="my-cool-heading">Cool!!</h1>
+        <p id="emoji-text">(",)</p>
     ```
-3. Go to the stylesheet and create CSS rules for the element, using the ID selector:
+9. Go to the stylesheet and create CSS rules for the element, using the ID selector:
     ```
-        #my-cool-heading {
+        #emoji-text {
             background-color: #ffe680;
             border-style: solid;
             border-width: 3px;
             width: 80px;
             padding: 20px;
             width: 80px;
+            animation-name: spin-around;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
         }
     ```
-4. Now add the following rule to the same set of rules:
-    ```
-        animation: spin-around 2s 3;
-    ```
-5. **TODO** EXPLAIN THE PERCENTAGES AND STUFF
 
