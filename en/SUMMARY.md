@@ -7,4 +7,5 @@
 * [Developer Tools](developer-tools.md)
 * [Organising your page](grouping-elements-together.md)
 * [Animation](animations.md)
+* [Hover pseudo class](hover-pseudo-class.md)
 
