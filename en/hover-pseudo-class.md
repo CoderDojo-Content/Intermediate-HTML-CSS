@@ -23,7 +23,9 @@
     }
   ```
  * Why not add the attribute `class="nice-links"` to all of the links in your menu bar as well? This will make your menu bar even more interactive!
-7. 
+7. You can combine all of these tricks with animations too! 
+8. Add the following animation to your CSS file:
+
   1. Make an image animation, rotate an image by id - use the previously used spin-around animation
 2. Then change it so it only activates on hover
 3. Get the image of Tito. You can upload and use a different image if you want.
