@@ -4,6 +4,19 @@
         <img src="Tito.png" alt="Tito the dog" width="100px">
     ```  		
 3. Add the following style code in the CSS file. The first part should look familiar. Run the code and move the mouse over the picture to see what happens!
+  ```
+    img {
+      border-radius: 50%;
+      border-style: dotted;
+      border-width: 3px;
+      border-color: #ffe680;
+    }
+    img:hover {
+      border-style: solid;
+      border-width: 3px;
+      border-color: pink;
+    }
+  ```  
 4. You've just used a special type of CSS block called a **pseudo-class**. Remember how you could assign a **class** name to any one or more elements to style them the same way? Well, `:hover` is a bit like that, but it comes built in so you don't need to add it to your elements. All you need to do to use it is to create `:hover` style rules in your CSS file for whatever elements you want to use it on.
  * You're not just limited to normal element selectors. You can use the `:hover` pseudo-class with any selector in CSS. So you could make hover styling for your classes too, or for individual elements with an ID.
 5. Let's use this new `:hover` **pseudo-class** together with a CSS class to make links glow when you hover over them! Add a link to your web page and include an attribute to specify the class name.  
