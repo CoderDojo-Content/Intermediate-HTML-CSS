@@ -21,7 +21,6 @@
             background-color: #ffe680;
             border-style: solid;
             border-width: 3px;
-            width: 80px;
             padding: 20px;
             width: 80px;
         }
@@ -51,14 +50,12 @@
     ```
         @keyframes spin-around {
             0% {
-                background-color: #ffe680;
                 transform: rotate(0deg);
             }
             50% {
-                background-color: paleturquoise;
+                transform: rotate(-90deg);
             }
             100% {
-                background-color: #ffe680;
                 transform: rotate(360deg);
             }
         }
@@ -71,15 +68,13 @@
 9. Go to the stylesheet and create CSS rules for the element, using the ID selector:
     ```
         #emoji-text {
-            background-color: #ffe680;
-            border-style: solid;
-            border-width: 3px;
-            width: 80px;
-            padding: 20px;
-            width: 80px;
             animation-name: spin-around;
             animation-duration: 2s;
-            animation-iteration-count: infinite;
+            animation-iteration-count: 3;
         }
     ```
-
+10. Change the `animation-iteration-count` from `3` to `infinite`. What happens when you run your code now?
+11. You can also play with different values for `animation-duration` to speed up or slow down your animation. 
+12. Extra challenges:
+ * Add some code to the `spin-around` animation to make the text change colour. Remember the property for text colour is called `color` 
+ * Add another in-between value, for example 75%, which sets different rotation and colour values.
