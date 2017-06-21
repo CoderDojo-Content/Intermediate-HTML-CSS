@@ -25,7 +25,7 @@
             width: 80px;
         }
     ```
-4. Now add the following rule to the same set of rules:
+4. Now add the following properties to the same set of rules:
     ```
         animation-name: my-first-animation;
         animation-duration: 2s;
@@ -52,11 +52,14 @@
             0% {
                 transform: rotate(0deg);
             }
-            50% {
-                transform: rotate(-90deg);
+            25% {
+                transform: rotate(-45deg);
+            }
+            75% {
+                transform: rotate(180deg);
             }
             100% {
-                transform: rotate(360deg);
+                transform: rotate(0);
             }
         }
     ```
