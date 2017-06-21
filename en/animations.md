@@ -68,6 +68,8 @@
 9. Go to the stylesheet and create CSS rules for the element, using the ID selector:
     ```
         #emoji-text {
+            text-align: center;
+            font-size: 60px;
             animation-name: spin-around;
             animation-duration: 2s;
             animation-iteration-count: 3;
