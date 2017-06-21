@@ -25,15 +25,30 @@
  * Why not add the attribute `class="nice-links"` to all of the links in your menu bar as well? This will make your menu bar even more interactive!
 7. You can combine all of these tricks with animations too! 
 8. Add the following animation to your CSS file:
-
-  1. Make an image animation, rotate an image by id - use the previously used spin-around animation
-2. Then change it so it only activates on hover
-3. Get the image of Tito. You can upload and use a different image if you want.
-
-
-10. At the end: can change it so it only affects one specific picture using id... or let's go with a class actually!
-
-11. add hover glow to the menu links as well!!
-
-12. You can use animations with the hover pseudo class as well!
+  ```
+    @keyframes glow-pulse {
+      0% {
+        border-style: solid;
+        border-width: 10px;
+        border-color: papayawhip;
+      }
+      50% {
+        border-style: solid;
+        border-width: 10px;
+        border-color: pink;
+      }
+      100% {
+        border-style: solid;
+        border-width: 10px;
+        border-color: papayawhip;
+      }
+    }
+  ```
+9. In your `.nice-links:hover` block, add three more CSS rules:
+  ```
+    animation-name: glow-pulse;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+  ```
+10. Now your link should have a glowing border that appears to pulse on and off whenever you hover the mouse over it!
 
