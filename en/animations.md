@@ -45,7 +45,7 @@
         }
     ```
  * What do you think the new lines will do? Run your code and find out!
-10. Another way to set start and end values is with **percentages** instead of the keywords `from` and `to`. That allows you to set in between values as well! Go to the bottom of your CSS file and add the following code
+7. Another way to set start and end values is with **percentages** instead of the keywords `from` and `to`. That allows you to set in between values as well! Go to the bottom of your CSS file and add the following code
     ```
         @keyframes spin-around {
             0% {
