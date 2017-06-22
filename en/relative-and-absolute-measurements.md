@@ -11,6 +11,7 @@
     width: 50%;
   }
  ```
+ * 50% (50 percent) is **half**
 5. Try a few different percentages and see if you can work out what it's doing.
  * When you're using **relative** measurements it's important to know what the **parent** of your element is. The **parent** is the thing that your element is inside, and that's what the measurement will be in relation to. For example, parent of the image above is the `main` because the `img` tag is in between the `<main></main> tags`.
 6. Now in your html file, put the image inside an `article` element. Include some text too. 
