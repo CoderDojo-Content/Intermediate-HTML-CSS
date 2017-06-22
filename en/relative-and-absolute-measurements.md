@@ -51,5 +51,6 @@
   padding: 1em;
  ```
 12. Now experiment again with different values for **font-size**. You should see the spacing change to match the font size this time.
- * the number with `em` refers to the width of the letter **m**
+ * Setting the size of anything to `1em` makes it the same size as the text; setting it to `2em` makes it twice the size of the text, and so on.
+13. You can use `em` values for anything you can set the size of, not just padding. Experiment with using it instead of `px` on borders, or instead of `%` on your image!
 
