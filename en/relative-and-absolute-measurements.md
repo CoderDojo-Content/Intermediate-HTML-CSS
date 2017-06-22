@@ -10,9 +10,23 @@
 4. Go to your CSS file and add the following code
  ```
   #imgTito {
-  
+   width: 50%;
   }
  ```
+5. Try a few different percentages and see how it works.
+ * When you're using **relative** measurements it's important to know what the **parent** of your element is. The **parent** is the thing that your element is inside. For example, parent of the image above is the `main` because the `img` tag is in between the `<main></main> tags`.
+6. Now your html file, put the image inside an `article` element. Include some text too if you like. 
+7. Add the following code to your stylesheet, so you can see what's going on more clearly
+ ```
+  article {
+    width: 200px;
+    background-color: white;
+  }
+ ```
+ * If you don't give `article`s a width, they fill up all the space available, which is usually a good thing!
+8. You should notice that the picture is much smaller now. That is because it is taking up 50% of the width of the `article` element instead of the `main` element (which is the width of the page).
+9. Another **relative** unit of measurement is `em`, which is related to the size of your text.
+
 10. It's a good idea to set the size in CSS rather than in the HTML tags. 
  * do example by id first, then show how to use classes cleverly %, vh, em) and absolute (p
 11. put in a container (e.g. article) and set the height according to that
