@@ -17,7 +17,7 @@
  ```
   <article>
      <img id="imgTito" src="tito.png" alt="Tito the dog">  		
-     <p class="funsize">
+     <p>
        This is Tito. He will be your tourguide! As you can see, Tito loves CoderDojo.
      </p>
    </article>
@@ -31,7 +31,20 @@
  ```
  * If you don't give `article`s a width, they fill up all the space available, which is usually a good thing!
 8. You should notice that the picture is much smaller now. That is because it is taking up 50% of the width of the `article` element instead of the `main` element (which is the width of the page).
-9. Another **relative** unit of measurement is `em`, which is related to the size of your text. It is recommended to always use `em` units when setting font sizes.
+9. Another **relative** unit of measurement is `em`, which is related to the size of your text. Add the following to your html file, outside of the article tags.
+ ```
+  <p class="funsize">A magical paragraph</p>
+ ```
+ Then, in your CSS file, add the following code
+ ```
+    .funsize {
+      border: 2px solid slateblue;
+      padding: 0.5em;
+    }
+ ```
+ * the border is included so you can see the spacing more easily
+10. Try different values for the padding, such as `1em` or `3em` or even `12em`!
+11. Now change the font-family. Add the following property to the `.funsize` class:
 
 10. It's a good idea to set the size in CSS rather than in the HTML tags. 
  * do example by id first, then show how to use classes cleverly %, vh, em) and absolute (p
