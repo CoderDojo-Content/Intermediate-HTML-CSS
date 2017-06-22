@@ -8,7 +8,7 @@
 4. In your CSS file and add the following code
  ```
   #imgTito {
-   width: 50%;
+    width: 50%;
   }
  ```
 5. Try a few different percentages and see if you can work out what it's doing.
@@ -17,7 +17,7 @@
  ```
   <article>
      <img id="imgTito" src="tito.png" alt="Tito the dog">  		
-     <p id="">
+     <p class="funsize">
        This is Tito. He will be your tourguide! As you can see, Tito loves CoderDojo.
      </p>
    </article>
