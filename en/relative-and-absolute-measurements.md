@@ -39,15 +39,17 @@
  ```
     .funsize {
       border: 2px solid slateblue;
-      padding: 0.5em;
+      padding: 5px;
+      font-family: "Helvetica", sans-serif;
+      font-size: 1.5em;
     }
  ```
  * the border is included so you can see the spacing more easily
-10. Try different values for the padding, such as `1em` or `3em` or even `12em`!
-11. Now change the font-family. Add the following property to the `.funsize` class:
+10. Set the font-size to different values for example `2em`, `3em`, `4em`. Can you see that the **padding** (space between the border and the text) doesn't change?
+11. With the padding staying the same, the space starts to look too small as the text gets bigger. Let's give it a **relative** value instead of the **absolute** pixel value. Change it to
+ ```
+  padding: 1em;
+ ```
+12. Now experiment again with different values for **font-size**. You should see the spacing change to match the font size this time.
+ * the number with `em` refers to the width of the letter **m**
 
-10. It's a good idea to set the size in CSS rather than in the HTML tags. 
- * do example by id first, then show how to use classes cleverly %, vh, em) and absolute (p
-11. put in a container (e.g. article) and set the height according to that
-12. em for Margins and padding !! Also for font-size i.e. relative to the parent as opposed to setting font-size 12pt
-13. SHOULD BE USING EM FOR FONT SIZES ALWAYS ANYWAY -- CHECK THIS IN THE BEGINNER SERIES! Can then just refer to it (he remember this?) and explain it now.
