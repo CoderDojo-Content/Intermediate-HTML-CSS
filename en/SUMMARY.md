@@ -8,4 +8,5 @@
 * [Organising your page](grouping-elements-together.md)
 * [Animation](animations.md)
 * [Hover effects](hover-pseudo-class.md)
+* [Relative and absolute measurements](relative-and-absolute-measurements.md)
 
