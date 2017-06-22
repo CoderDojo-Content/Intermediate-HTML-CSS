@@ -13,4 +13,5 @@
 10. It's a good idea to set the size in CSS rather than in the HTML tags. 
  * do example by id first, then show how to use classes cleverly %, vh, em) and absolute (p
 11. put in a container (e.g. article) and set the height according to that
-12. em for Margins and padding !!
+12. em for Margins and padding !! Also for font-size i.e. relative to the parent as opposed to setting font-size 12pt
+13. SHOULD BE USING EM FOR FONT SIZES ALWAYS ANYWAY -- CHECK THIS IN THE BEGINNER SERIES!
