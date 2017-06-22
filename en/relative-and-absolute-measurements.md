@@ -14,4 +14,4 @@
  * do example by id first, then show how to use classes cleverly %, vh, em) and absolute (p
 11. put in a container (e.g. article) and set the height according to that
 12. em for Margins and padding !! Also for font-size i.e. relative to the parent as opposed to setting font-size 12pt
-13. SHOULD BE USING EM FOR FONT SIZES ALWAYS ANYWAY -- CHECK THIS IN THE BEGINNER SERIES!
+13. SHOULD BE USING EM FOR FONT SIZES ALWAYS ANYWAY -- CHECK THIS IN THE BEGINNER SERIES! Can then just refer to it (he remember this?) and explain it now.
