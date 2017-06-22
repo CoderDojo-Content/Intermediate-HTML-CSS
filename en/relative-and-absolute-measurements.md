@@ -13,7 +13,15 @@
  ```
 5. Try a few different percentages and see if you can work out what it's doing.
  * When you're using **relative** measurements it's important to know what the **parent** of your element is. The **parent** is the thing that your element is inside, and that's what the measurement will be in relation to. For example, parent of the image above is the `main` because the `img` tag is in between the `<main></main> tags`.
-6. Now your html file, put the image inside an `article` element. Include some text too if you like. 
+6. Now in your html file, put the image inside an `article` element. Include some text too. 
+ ```
+  <article>
+     <img id="imgTito" src="tito.png" alt="Tito the dog">  		
+     <p id="">
+       This is Tito. He will be your tourguide! As you can see, Tito loves CoderDojo.
+     </p>
+   </article>
+  ```
 7. Add the following code to your stylesheet, so you can see what's going on more clearly
  ```
   article {
@@ -23,7 +31,7 @@
  ```
  * If you don't give `article`s a width, they fill up all the space available, which is usually a good thing!
 8. You should notice that the picture is much smaller now. That is because it is taking up 50% of the width of the `article` element instead of the `main` element (which is the width of the page).
-9. Another **relative** unit of measurement is `em`, which is related to the size of your text.
+9. Another **relative** unit of measurement is `em`, which is related to the size of your text. It is recommended to always use `em` units when setting font sizes.
 
 10. It's a good idea to set the size in CSS rather than in the HTML tags. 
  * do example by id first, then show how to use classes cleverly %, vh, em) and absolute (p
