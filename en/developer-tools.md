@@ -7,10 +7,11 @@
 6. In the **Styles** tab on the right panel of the Dev Tools you will see the **CSS** code for the selected element. Notice how there are a few sets of CSS rules. One is the block you created specifically for that paragraph: `#myCoolText`.
 7. Here's the fun part! Click on the colour name or the HEX next to the `color` property of `#myCoolText`. Now you can type in a different value. Try `red`. If you like you can choose one of the suggestions that appear while you type. Watch the text on your webpage change colour straight away!
  * You can also click the coloured square instead of the text: this lets you use a colour picker tool.
+10. How is this special?! When you change code using the Dev Tools you are **temporarily** changing what it looks like in your browser. You aren't actually changing the files in your website. That means you can test out loads of different values and **instantly** see what they look like, **without touching your code files**.
 8. Click in the space after the colour. A new line starts, where you can type more CSS. Enter the following:
  ```
   border-style: solid;
  ```
-9. Try adding some more styles, like `border-color`! 
+9. Try adding some more styles, like `border-color`! If you want to delete a style, untick the little blue box beside it, you'll see it get crossed out.
 10. Have a scroll through the **Elements** panel and see if you can locate other elements you recognise from your own code. They should become highlighted on your webpage as you move over the code with your mouse. When you click an element, its style rules will be shown on the right.
 
