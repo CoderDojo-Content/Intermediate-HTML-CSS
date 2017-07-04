@@ -8,5 +8,5 @@
 * [Animation](animations.md)
 * [Hover effects](hover-pseudo-class.md)
 * [Relative and absolute measurements](relative-and-absolute-measurements.md)
-* [Developer Tools](developer-tools.md)
+* [Sneak a peek!](developer-tools.md)
 
