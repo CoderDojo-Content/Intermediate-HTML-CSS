@@ -7,7 +7,7 @@
 6. In the **Styles** tab on the right panel of the Dev Tools you will see the **CSS** code for the selected element. Notice how there are a few sets of CSS rules. One is the block you created specifically for that paragraph: `#myCoolText`.
 7. Here's the fun part! Click on the colour name or the HEX next to the `color` property of `#myCoolText`. Now you can type in a different value. Try `red`. If you like you can choose one of the suggestions that appear while you type. Watch the text on your webpage change colour straight away!
  * You can also click the coloured square instead of the text: this lets you use a colour picker tool.
-10. How is this special?! When you change code using the Dev Tools you are **temporarily** changing what it looks like in your browser. You aren't actually changing the files in your website. That means you can test out loads of different values and **instantly** see what they look like, **without touching your code files**.
+10. How is this special?! When you change code using the Dev Tools you are **temporarily** changing what it looks like **in your browser**. You aren't actually changing the files in your website. That means you can test out loads of different values and **instantly** see what they look like, **without touching your code files**.
 8. Click in the space after the colour. A new line starts, where you can type more CSS. Enter the following:
  ```
   border-style: solid;
@@ -16,5 +16,5 @@
 10. Have a scroll through the **Elements** panel and see if you can locate other elements you recognise from your own code. They should become highlighted on your webpage as you move over the code with your mouse. When you click an element, its style rules will be shown on the right.
  * click on the tiny grey triangles to expand elements that have more code inside them.
 11. Remember, all these changes are **temporary**. When you reload the page or re-run your code, it will all reset. 
-12. You can use the Developer Tools to check out the code on other websites too! Why not go to www.Google.com (***TODO:*** soy link), right click and Inspect. See if you understand any of the code you see. Make some changes to the CSS
+12. You can use the Developer Tools to check out the code on other websites too! Why not go to www.Google.com (***TODO:*** soy link), right click and Inspect. See if you understand any of the code you see. You can even make temporary changes! It's not going to change the website itself They are only **local** (in your browser), which means only you see it.
 
