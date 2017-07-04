@@ -5,5 +5,12 @@
 3. Press the Esc key on your keyboard once or twice until the Dev Tools is split into two main panels rather than a super-crowded three (you don't need to see the Console right now). The panels you will be using are **Elements** on the left and **Styles** on the right. You can drag the border in between them to change their sizes. You can also drag the top border of the Dev Tools to make it bigger or smaller. 
 5. In the top left corner of the Dev Tools, click the tiny square icon with the arrow. This lets you select any element on the page to see the code. Click on the new text on your webpage, "This is a paragraph with its own special style!". The **HTML** code will be highlighted in the **Elements** panel of the Dev Tools. It should look pretty much the same as how you typed it in your html file!
 6. In the **Styles** tab on the right panel of the Dev Tools you will see the **CSS** code for the selected element. Notice how there are a few sets of CSS rules. One is the block you created specifically for that paragraph: `#myCoolText`.
-7. Here's the fun part: changing the styles! Click on the colour name or the HEX next to the `color` property of `#myCoolText`. Now you can type in a different value. Try `red`. 
+7. Here's the fun part! Click on the colour name or the HEX next to the `color` property of `#myCoolText`. Now you can type in a different value. Try `red`. If you like you can choose one of the suggestions that appear while you type. Watch the text on your webpage change colour straight away!
+ * You can also click the coloured square instead of the text: this lets you use a colour picker tool.
+8. Click in the space after the colour. A new line starts, where you can type more CSS. Enter the following:
+ ```
+  border-style: solid;
+ ```
+9. Try adding some more styles, like `border-color`! 
+10. Have a scroll through the **Elements** panel and see if you can locate other elements you recognise from your own code. They should become highlighted on your webpage as you move over the code with your mouse. When you click an element, its style rules will be shown on the right.
 
