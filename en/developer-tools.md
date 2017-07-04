@@ -12,6 +12,8 @@
  ```
   border-style: solid;
  ```
-9. Try adding some more styles, like `border-color`! If you want to delete a style, untick the little blue box beside it, you'll see it get crossed out.
+9. Try adding some more styles, like `border-color`. If you want to delete a style, untick the little blue box beside it, you'll see it get crossed out.
 10. Have a scroll through the **Elements** panel and see if you can locate other elements you recognise from your own code. They should become highlighted on your webpage as you move over the code with your mouse. When you click an element, its style rules will be shown on the right.
+11. Remember, all these changes are **temporary**. When you reload the page or re-run your code, it will all reset. 
+12. You can use the Developer Tools to check out the code on other websites too! Why not go to www.Google.com (***TODO:*** soy link), right click and Inspect. See if you understand any of the code you see. Make some changes to the CSS
 
