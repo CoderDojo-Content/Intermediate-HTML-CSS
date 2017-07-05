@@ -1,11 +1,11 @@
 1. Take a look at your **stylesheet**. That's the file that has **.css** in the name.
 2. Inside the CSS rules for `body`, set the background colour to
    ```
-        background-color: #9ADC32;
+        background-color: #9f80ff;
    ```
 
    * If you are using a Mac, the **\#** is typed by holding the **alt** key and the number **3** key together.
-3. When you click Run, your website should have a green background. ![](assets/HexColorFirstGreen.png)
+3. When you click Run, your website should have a blue/purple background. ![](assets/HexColorFirstGreen.png)
 4. As you have seen, you can type in many different colour names as words and the browser will recognise them. But a more common way to set colours is to use a code like the one above, called a **HEX** code.
 5. Try it yourself: Go to dojo.soy/COLOURS-LIST-TODO and choose a colour for your website. But instead of typing the name of the colour, type in the HEX code.
 6. HEX codes allow you to mix any colour, even if it's not on any list of colours. Try making up your own colour code
