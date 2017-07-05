@@ -1,11 +1,11 @@
 1. You can create a unique set of CSS rules to style one specific element.
-2. Add the following code to the `index.html` file
+2. Add the following **attribute** to one of the `p` tags in the `index.html` file
     ```
         <p id="myCoolText">
-            This is a paragraph with it's own special style!
-        </p>
+            My website is about Ireland.
+        </p> 
     ```
-    * notice there is an **attribute** called **id**. This is a name you give to **identify** this particular element.
+    * The `id` is a name you give to **identify** this particular element.
 3. Now go to your stylesheet and add the following code
     ```
         #myCoolText {
