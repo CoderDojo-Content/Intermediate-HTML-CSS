@@ -1,5 +1,5 @@
 1. You can create a unique set of CSS rules to style one specific element.
-2. Add the following code to one of your `.html` files
+2. Add the following code to the `index.html` file
     ```
         <p id="myCoolText">
             This is a paragraph with it's own special style!
