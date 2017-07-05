@@ -16,7 +16,7 @@ As you have seen, you can type in many different colour names as words and the b
  * If you wrote the colour `#9ADC32` using plain RGB numbers, it would be `154,205,50`.
 8. You don't need to worry too much about learning to count with Hexadecimal numbers. There are plenty of colour picking tools that help you get the HEX code for any colour you want. ![](assets/W3ColorPicker.png)
 9. Go to [dojo.soy/color-picker](https://www.w3schools.com/colors/colors_picker.asp) and try out the colour picker to choose some HEX colour codes to use on your website.
-10. Fun exercise: Take your six-digit date of birth and put a `#` symbol in front to make your own unique personal colour code! Try it out in your stylesheet–what colour did you get? ![](assets/HexColorDOB.png)
+10. Fun exercise: Take your six-digit date of birth and put a `#` symbol in front to make your own unique personal colour code! Try it out in your stylesheet–what colour did you get? ![](assets/HexColorMyDOB.png)
 
 
 
