@@ -13,8 +13,7 @@
             text-decoration: underline;
         }
     ```
-    * This is an ID selector. You can tell because of the `#` in front of it.
-    * Notice the `#` in front of the rule.
+    * This is an **ID selector**. You can tell because of the `#` in front of it.
     * The name of the rule should exactly match the name you put in the element's `id` attribute
     * This styling apples to only one individual element on your website.
 4. You can style any individual element on your website by giving it an `id` and using the ID selector in your stylesheet. Let's do one for the `body` of the homepage.
