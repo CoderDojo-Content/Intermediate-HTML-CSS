@@ -9,7 +9,7 @@
 3. Now go to your stylesheet and add the following code
     ```
         #myCoolText {
-            color: yellow;
+            color: #ffff66;
             text-decoration: underline;
         }
     ```
