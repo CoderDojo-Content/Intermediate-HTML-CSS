@@ -1,5 +1,4 @@
-1. When you have a web page that's full of information, it's a good idea to try to organise it a bit so that it looks tidy and it's easy to read.
-2. Headings of different sizes and paragraph tags are a great start, but there are more tags you can use to group things together in special containers.
+1. When you have a web page that's full of information, it's a good idea to try to organise it a bit so that it looks tidy and it's easy to read. Headings of different sizes and paragraph tags are a great start, but there are more tags you can use to group things together in special containers.
 3. Start by putting the main content of your page in between `<article></article>` tags. That is everything after the header and before the footer.
 4. If your page contains more than one separate item of content that are not really connected, put each one between its own set of `<article></article>` tags instead of putting one set of the tags around the whole lot.
  * **content** means information or pictures or any other "stuff" you have on the page
