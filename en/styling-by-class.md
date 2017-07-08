@@ -1,4 +1,4 @@
-1. What if you want to apply a set of CSS rules to more than one element but you don't want to change _all_ the elements that use that tag on your website?. You can, with a CSS **class**!
+1. What if you want to apply a set of CSS rules to more than one element but you don't want to change _all_ the elements that use that tag on your website? You can, with a CSS **class**!
 2. Go to your stylesheet file and add the following. Be sure to include the dot in front!
     ```
         .cool-roundy-borders {
@@ -8,11 +8,10 @@
             border-radius: 10px;
         }
     ```
-3. Now go to one of your html files that has an `<img>` tag on it and add the following **attribute** to the tag
+3. Now go to index.html and add the following **attribute** to the `<img>` tag
     ```
         class="cool-roundy-borders"
     ```
-3. ** use img as the example?? **
 4. ** create classes "round corners" and "square corners" and show that they can be used on anything that has the border-radius property! **
 2. Choose one of your `<article>` blocks and add the following **attribute** to the opening tag
     ```
