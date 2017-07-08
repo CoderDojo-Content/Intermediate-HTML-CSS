@@ -1,11 +1,10 @@
 1. What if you want to apply a set of CSS rules to more than one element but you don't want to change _all_ the elements that use that tag on your website? You can, with a CSS **class**!
 2. Go to your stylesheet file and add the following. Be sure to include the dot in front!
     ```
-        .cool-roundy-borders {
+        .solidRedBorders {
             border-style: solid;
             border-width: 2px;
-            border-color: #ffe680;
-            border-radius: 10px;
+            border-color: #C71585;
         }
     ```
 3. Now go to index.html and add the following **attribute** to the `<img>` tag
