@@ -1,4 +1,4 @@
-1. Let's say you want to make CSS rules to style a certain few elements the same way.
+1. What if you want to apply a set of CSS rules to more than one element but you don't want to change _all_ the elements that use that tag on your website?. You can, with a CSS **class**!
 2. Go to your stylesheet file and add the following. Be sure to include the dot in front!
     ```
         .cool-roundy-borders {
