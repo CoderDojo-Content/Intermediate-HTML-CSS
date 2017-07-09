@@ -33,6 +33,7 @@ Back in the attractions.html file, add the attribute `class="greenBackground"` t
     ```
         .yellowBackground {
           background-color: #FFFFCC;
+          color: #A52A2A;
         }
         
         .solidRoundBorders {
@@ -51,4 +52,4 @@ In the food.html file, add the new classes as well as the `.sectionSpacing` clas
     ```
         <img id="imgTito" class="solidRoundBorders" src="tito.png" alt="Tito the dog" width="100px">
     ```
-3. You decide the name for your CSS class can be called anything you like.
+9. Why not experiment with some more CSS classes to make each page on your website have a different theme? You can name a CSS class anything you like. It's common to give it a name that describes what it does or what it's for!
