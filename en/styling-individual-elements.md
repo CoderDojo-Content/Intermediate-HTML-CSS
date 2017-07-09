@@ -21,7 +21,7 @@
     ```
         <body id="frontPage">
     ```
-6. In the stylesheet, add CSS rules for the body of the homepage.
+6. In the stylesheet, add CSS rules for the body of the homepage. You can upload any image you like, or use the one included with the example project.
     ```
         #frontPage {
             background-image: url("leaves.png");
