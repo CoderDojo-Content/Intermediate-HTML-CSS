@@ -28,4 +28,4 @@
         }
     ```
     * When you style using the ID selector like this, you can put in any rules you like for the element you are styling.
-4. Try giving another element an `id` and styling that element using the id selector with `#` as above.
+7. Try giving another element an `id` and styling that element using the id selector with `#` as above. How about making the picture of Tito have a `border-radius` of `100%` so that it's fully rounded? Your other pictures will stay the same as they are when you do it with this method.
