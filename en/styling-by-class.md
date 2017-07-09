@@ -1,22 +1,32 @@
-1. What if you want to apply a set of CSS rules to more than one element but you don't want to change _all_ the elements that use that tag on your website? You can, with a CSS **class**!
+1. What if you want to apply a set of CSS rules to _more than one element_ but you don't want to change _all_ the elements that use that tag on your website? You can, with a CSS **class**!
 2. Go to your stylesheet file and add the following. Be sure to include the dot in front!
     ```
-        .solidRedBorders {
+        .solidRoundBorders {
             border-style: solid;
             border-width: 2px;
-            border-color: #C71585;
+            border-color: #F5FFFA;
+            border-radius: 10px;
         }
     ```
-3. Now go to index.html and add the following **attribute** to the `<img>` tag
+3. Now go to attractions.html and add the following **attribute** to each of the `<section>` tags.
     ```
-        class="cool-roundy-borders"
+        class="solidRoundBorders"
     ```
-4. ** create classes "round corners" and "square corners" and show that they can be used on anything that has the border-radius property! **
-2. Choose one of your `<article>` blocks and add the following **attribute** to the opening tag
+Click Run and look at the Attractions page. Compare it to the other pages that have `section` elements.
+4. You can add more than one class to an element. Let's make another CSS class to give the sections some margin and padding. In styles.css, add the following code:
     ```
-        <article class="
+        .sectionSpacing {
+          padding: 10px;
+          margin-top: 20px;
+        }
+    ```
+5. In attractions.html, add the new class to each of the sections. Simply put a space after the first class name, and type the new name inside the quotation marks, like this:
+    ```
+        <section class="solidRoundBorders sectionSpacing">
+    ```
+    * You can add as many CSS classes to an element as you like. Just write the names of all the classes you want to use inside the `class` attribute, and separate them with spaces.
 3. You decide the name for your CSS class can be called anything you like.
-4. You can add more than one CSS class to an element. In fact you can add as many as you like. Just write the names of all the classes you want to use inside the `class` attribute, and separate them with spaces. Let's try that now.
+
 5. Create a CSS class called `orange-underline` in your stylesheet as follows
     ```
         .orange-underline {
