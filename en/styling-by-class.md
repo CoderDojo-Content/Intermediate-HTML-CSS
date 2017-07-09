@@ -16,45 +16,39 @@ You should see the green background disappear from around the text on the Attrac
             background-color: #48D1CC;
         }
     ```
-Back in the attractions.html file, add the attribute `class="greenBackground"` to each of the section tags, just like you did for the `article` element.
-Click Run and look at the Attractions page. Compare it to the other pages that have `section` elements.
-4. You can add more than one class to an element. Let's make another CSS class to give the sections some margin and padding. In styles.css, add the following code:
+Back in the attractions.html file, add the attribute `class="greenBackground"` to each of the section tags, just like you did for the `article` element. Click Run and look at the Attractions page. Compare it to the other pages that have `section` elements.
+5. You can add more than one class to an element. Let's make another CSS class to give the sections some margin and padding. In styles.css, add the following code:
     ```
         .sectionSpacing {
           padding: 10px;
           margin-top: 20px;
         }
     ```
-5. In attractions.html, add the new class to each of the sections. Simply put a space after the first class name, and type the new name inside the quotation marks, like this:
+6. In attractions.html, add the new class to each of the sections. Simply put a space after the first class name, and type the new name inside the quotation marks, like this:
     ```
         <section class="greenBackground sectionSpacing">
     ```
     * You can add as many CSS classes to an element as you like. Just write the names of all the classes you want to use inside the `class` attribute, and separate them with spaces.
-3. You decide the name for your CSS class can be called anything you like.
-
-5. Create a CSS class called `orange-underline` in your stylesheet as follows
+7. How about re-vamping the Food page? Add the following classes to your stylesheet:
     ```
-        .orange-underline {
-            color: orange;
-            text-decoration: underline;
+        .yellowBackground {
+          background-color: #FFFFCC;
+        }
+        
+        .solidRoundBorders {
+          border-style: solid;
+          border-width: 2px;
+          border-color: #F5FFFA;
+          border-radius: 10px;
         }
     ```
-6. Now go to index.html and add a paragraph of text with both the first class and the new class added to it:
+In the food.html file, add the new classes as well as the `.sectionSpacing` class to each section:
     ```
-        <p class="cool-roundy-borders orange-underline">
-            Here is some text with two sets of CSS rules! 
-        </p>
+        <section class="yellowBackground sectionSpacing solidRoundBorders">
     ```
-    * Don't forget the space in between the two class names inside your `class` attribute!
-
-7. 
-
-
-```
-.solidRoundBorders {
-border-style: solid;
-border-width: 2px;
-border-color: #F5FFFA;
-border-radius: 10px;
-}
-```
+ * Notice how you can mix and match the classes in your element attributes?
+8. Using CSS classes lets you **reuse** the same set of style rules on lots of elements. You can apply them to any element that has the properties you've set. Go to index.html and add the `.solidRoundBorders` class to the picture of Tito.
+    ```
+        <img id="imgTito" class="solidRoundBorders" src="tito.png" alt="Tito the dog" width="100px">
+    ```
+3. You decide the name for your CSS class can be called anything you like.
