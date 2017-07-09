@@ -24,8 +24,7 @@
 6. In the stylesheet, add CSS rules for the body of the homepage.
     ```
         #frontPage {
-            background-color: pink;
-            font-size: 14px;
+            background-image: url("leaves.png");
         }
     ```
     * When you style using the ID selector like this, you can put in any rules you like for the element you are styling.
