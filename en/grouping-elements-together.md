@@ -47,3 +47,4 @@ Delete the closing tag that Trinket automatically adds in for you.
     padding: 10px;
  }
 ```
+8. Have a go at organising all of your HTML files in this way. If you get stuck, check out [***TODO*** dojo.soy/organised-html](https://trinket.io/html/3b6fa2e6ba?runMode=run) for an example!
