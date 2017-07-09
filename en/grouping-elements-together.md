@@ -1,6 +1,16 @@
-1. Up until now you've used heading and paragraph tags for arranging your **content** so that it looks tidy and is easy to read. Let's look at some more tags that you can use to group things together in special **containers**.
+1. Up until now you've used heading and paragraph tags for arranging your **content** so that it looks tidy and is easy to read. Let's look at some tags that you can use to group things together.
  * **Content** is all the "stuff" on your web page, like information and pictures
-2. Start by looking at the **content** you have
+2. Go to the attractions.html file (or one of your own pages if you're not using the example Trinket project). Near the top, just _underneath_ the opening `<main>` tag, type the following on a new line: 
+ ```
+  <main>
+   <article>
+ ```
+Delete the closing tag that Trinket automatically adds in for you.
+3. At the bottom of the file, just _above_ the closing `</main>` tag, add in your closing tag on a new line:
+ ```
+   </article>
+  </main>
+ ```
 3. Start by putting the main **content** of your page in between `<article></article>` tags. So put an opening `<article>` tag just underneath the opening `<main>` tag, and put the closing `</article>` tag just above the closing `</main>` tag.
 
 4. If your page contains more than one separate item of content that are not really connected, put each one between its own set of `<article></article>` tags instead of putting one set of the tags around the whole lot.
