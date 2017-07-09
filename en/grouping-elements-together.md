@@ -1,7 +1,8 @@
-1. When you have a web page that's full of information, it's a good idea to try to organise it a bit so that it looks tidy and it's easy to read. Headings of different sizes and paragraph tags are a great start, but there are more tags you can use to group things together in special containers.
-3. Start by putting the main content of your page in between `<article></article>` tags. That is everything after the header and before the footer.
+1. Up until now you've used heading and paragraph tags for arranging your **content** so that it looks tidy and is easy to read. Let's look at some more tags that you can use to group things together in special **containers**.
+ * **Content** is all the "stuff" on your web page, like information and pictures
+3. Start by putting the main **content** of your page in between `<article></article>` tags. So put an opening `<article>` tag just underneath the opening `<main>` tag, and put the closing `</article>` tag just above the closing `</main>` tag.
+
 4. If your page contains more than one separate item of content that are not really connected, put each one between its own set of `<article></article>` tags instead of putting one set of the tags around the whole lot.
- * **content** means information or pictures or any other "stuff" you have on the page
  5. You can totally have `article`s inside `articles`: for example one big piece of content that's made up of a few smaller ones.
 4. You can also break your `article` up into chunks or sections if you need to. The `<section></section>` tags are there for exactly this! Use them the same way as the `<article> </article>` tags.
 5. ***TODO*** Here's an example of a page that uses `article` and `section` tags to organise information.
