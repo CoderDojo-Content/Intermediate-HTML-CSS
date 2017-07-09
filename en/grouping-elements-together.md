@@ -31,6 +31,5 @@ Delete the closing tag that Trinket automatically adds in for you.
     <img src="achill.JPG" width="200px">
   </section>
  ```
-
-6. Confused about this container thing? Remember when you created a menu and then put it in between `<nav> </nav>` tags. This is another example of one of these containers. What you are doing is telling the browser that everything in between these special tags belongs together. Like organising things in boxes and shelves in your home!
+6. Confused about this container thing? Remember when you created a menu and then put it in between `<nav> </nav>` tags. That's another example of one of these containers. What you are doing is telling the browser that everything in between these special tags belongs together. Like organising things in boxes and shelves in your home!
 7. Once your content has been organised into `articles` and `sections` you can create CSS rules in the stylesheet to control how the different bits look! Here's an example of some CSS styling of the `article` and `section` containers. See if you can understand it and make your own.
