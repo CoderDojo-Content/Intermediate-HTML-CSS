@@ -23,10 +23,10 @@ Check index.html and other html files to see where your section elements are. Th
   ```
     .nice-links {
       text-decoration: none;
-      color: Brown;
+      color: #AFEEEE;
     }
     .nice-links:hover {
-      color: purple;
+      color: #39004D;
       background-color: PapayaWhip;
       border-radius: 10px;
     }
