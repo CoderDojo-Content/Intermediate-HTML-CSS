@@ -1,5 +1,4 @@
 1. You can make your website more **interactive** by making cool stuff happen when you hover over things with the mouse! In styles.css, find the CSS rules for the class `.solidRoundBorders` and add a new block of rules right underneath:
-3. Add the following style code in the CSS file. The first part should look familiar. Run the code and move the mouse over the picture to see what happens!
   ```  
     .solidRoundBorders {
       border-style: solid;
@@ -13,7 +12,8 @@
       border-color: #9900CC;
     }
   ```  
-4. You've just used a special type of CSS block called a **pseudo-class**. Remember how you could assign a **class** name to any one or more elements to style them the same way? Well, `:hover` is a bit like that, but it comes built in so you don't need to add it to your elements. All you need to do to use it is to create `:hover` style rules in your CSS file for whatever elements you want to use it on.
+Check index.html and other html files to see what elements are using the `solidRoundBorders` class. Or add the class to some elements, such as an image. Then run the code and move the mouse over those elements to see what happens!
+2. You've just used a special type of CSS block called a **pseudo-class**. **extension** It's a bit like a class, but it comes built in so you don't need to add it to your elements. All you need to do to use it is to create `:hover` style rules in your CSS file for whatever elements you want to use it on.
  * You're not just limited to normal element selectors. You can use the `:hover` pseudo-class with any selector in CSS. So you could make hover styling for your classes too, or for individual elements with an ID.
 5. Let's use this new `:hover` **pseudo-class** together with a CSS class to make links glow when you hover over them! Add a link to your web page and include an attribute to specify the class name.  
   ```<a class="nice-links" href="http://www.failteireland.ie/">Irish Tourism website</a>
