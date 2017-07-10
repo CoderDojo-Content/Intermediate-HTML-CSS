@@ -49,7 +49,7 @@
     }
  ```
  * the border is included so you can see the spacing more easily
-10. Set the font-size to different values for example `2em`, `3em`, `4em`. Can you see that the **padding** (space between the border and the text) doesn't change?
+10. Set the font-size to different values for example `0.5em`, `2em`, `3em`, `4em`. Can you see that the **padding** (space between the border and the text) doesn't change?
 11. With the padding staying the same, the space starts to look too small as the text gets bigger. Let's give it a **relative** value instead of the **absolute** pixel value. Change it to
  ```
   padding: 1em;
