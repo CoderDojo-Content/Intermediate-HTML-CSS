@@ -50,10 +50,10 @@
  ```
  * the border is included so you can see the spacing more easily
 10. Set the font-size to different values for example `0.5em`, `2em`, `3em`, `4em`. Can you see that the **padding** (space between the border and the text) doesn't change?
-11. With the padding staying the same, the space starts to look too small as the text gets bigger. Let's give it a **relative** value instead of the **absolute** pixel value. Change it to
- ```
-  padding: 1em;
- ```
+11. With the padding staying the same, the space starts to look small as the text gets bigger. Let's give it a **relative** value instead of the **absolute** pixel value. Change it to
+  ```
+    padding: 1em;
+  ```
 12. Now experiment again with different values for **font-size**. You should see the spacing change to match the font size this time.
  * Setting the size of anything to `1em` makes it the same size as the text; setting it to `2em` makes it twice the size of the text, and so on.
 13. You can use `em` values for anything you can set the size of, not just padding. Experiment with using it instead of `px` on borders, or instead of `%` on your image!
