@@ -1,20 +1,16 @@
-1. Let's make images do something cool when you hover over them with the mouse! If you don't have any images on your page, upload one in the images tab, and then add it using the `<img>` tag. If you are working from the example project, you may use the photo of Tito the dog that's included.
-2. Your html file should now contain something like the following code on it
-    ```
-        <img src="Tito.png" alt="Tito the dog" width="100px">
-    ```  		
+1. You can make your website more **interactive** by making cool stuff happen when you hover over things with the mouse! In styles.css, find the CSS rules for the class `.solidRoundBorders` and add a new block of rules right underneath:
 3. Add the following style code in the CSS file. The first part should look familiar. Run the code and move the mouse over the picture to see what happens!
-  ```
-    img {
-      border-radius: 50%;
-      border-style: dotted;
-      border-width: 4px;
-      border-color: #ffe680;
-    }
-    img:hover {
+  ```  
+    .solidRoundBorders {
       border-style: solid;
-      border-width: 4px;
-      border-color: pink;
+      border-width: 2px;
+      border-color: #F5FFFA;
+      border-radius: 10px;
+    }
+    .solidRoundBorders:hover {
+      border-style: dotted;
+      border-width: 3px;
+      border-color: #9900CC;
     }
   ```  
 4. You've just used a special type of CSS block called a **pseudo-class**. Remember how you could assign a **class** name to any one or more elements to style them the same way? Well, `:hover` is a bit like that, but it comes built in so you don't need to add it to your elements. All you need to do to use it is to create `:hover` style rules in your CSS file for whatever elements you want to use it on.
