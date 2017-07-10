@@ -54,14 +54,15 @@
             }
             100% {
                 transform: rotate(360deg);
+                border-color: red;
             }
         }
     ```
     * You can set as many in between values as you like using different percentages
     * Values for rotate can go from 0deg up to 360deg (full circle). A **minus** number means it rotates backwards!
-10. Try adding the `animateMe` class to other elements on your website (by adding the **attribute** `class="animateMe" inside the opening tag!) to make them spin too!
-9. Extra challenges:
+9. Try adding the `animateMe` class to other elements on your website (by adding the **attribute** `class="animateMe" inside the opening tag!) to make them spin too!
+10. Extra challenges:
  * Add some code to the `myFirstAnimation` animation to make the text change colour. Remember the property for text colour is called `color` 
- * Add another in-between value, for example 75%, which sets different rotation and colour values.
-13. You can put the `animation` properties into the CSS rules for any element on your website. How about making one of your images spin around?
+ * Add another in-between value to `spinAroundAnimation`, for example 75%, which sets a different rotation value.
+11. Why not try making your own new animation using the `@keyframes` keyword and a name that you choose? Use the code you learned above to help you. How about making some text change colour as well as rotate!
  * To learn about more things you can do with animation, visit dojo.soy/css-animation**TODO-LINK**
