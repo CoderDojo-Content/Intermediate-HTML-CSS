@@ -56,6 +56,7 @@
         }
     ```
     * You can set as many in between values as you like using different percentages
+    * Values for rotate can go from 0deg up to 360deg (full circle). A **minus** number means it rotates backwards!
 8. Go to the file index.html and add the following code below the new stuff:
     ```
         <p id="emoji-text">(",)</p>
