@@ -23,7 +23,7 @@ Check index.html and other html files to see where your section elements are. Th
   ```
     .nice-links {
       text-decoration: none;
-      color: #AFEEEE;
+      color: #A52A2A;
     }
     .nice-links:hover {
       color: #39004D;
@@ -38,17 +38,17 @@ Check index.html and other html files to see where your section elements are. Th
     @keyframes glow-pulse {
       0% {
         border-style: solid;
-        border-width: 10px;
+        border-width: 5px;
         border-color: papayawhip;
       }
       50% {
         border-style: solid;
-        border-width: 10px;
+        border-width: 5px;
         border-color: pink;
       }
       100% {
         border-style: solid;
-        border-width: 10px;
+        border-width: 5px;
         border-color: papayawhip;
       }
     }
