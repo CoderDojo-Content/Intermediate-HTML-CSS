@@ -22,10 +22,10 @@
 5. Let's try another animation! Add the following code to the end of your CSS file: 
     ```
         @keyframes spinAroundAnimation {
-            from {
+            0% {
                 transform: rotate(0deg);
             }
-            to {
+            100% {
                 transform: rotate(360deg);
             }
         }
@@ -37,22 +37,19 @@
         }
     ```
  * The second block is a new CSS class
-6. In index.html, add the class `animateMe` to the picture of Tito
+6. In index.html, add the class `animateMe` to the picture of Tito and then click Run to see the new animation.
     ```
         <img id="imgTito" class="solidRoundBorders animateMe" src="tito.png" alt="Tito the dog" width="100px">
     ```
  * What do you think the new lines will do? Run your code and find out!
-7. Another way to set start and end values is with **percentages** instead of the keywords `from` and `to`. That allows you to set in between values as well! Go to the bottom of your CSS file and add the following code
+7. Did you notice that this time you used `0%` and `100%` instead of `from` and `to` to set the start and end values of your animation? With **percentages** you're able to set in between values as well as just start and end! Go to the bottom of your CSS file and add the following code
     ```
-        @keyframes spin-around {
+        @keyframes spinAroundAnimation {
             0% {
                 transform: rotate(0deg);
             }
             25% {
-                transform: rotate(-45deg);
-            }
-            75% {
-                transform: rotate(180deg);
+                transform: rotate(-180deg);
             }
             100% {
                 transform: rotate(0);
