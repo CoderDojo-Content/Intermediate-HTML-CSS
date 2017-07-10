@@ -1,16 +1,17 @@
 1. Up until now you've been using **pixels** to set the size of things, e.g. `10px`. This is called an **absolute** measurement. It means you set an exact size and it doesn't change.
 2. Another way to set the size of things is using **relative** measurements. That means how big elements are in relation to each other. So when one thing changes size, everything else will automatically change as well to keep the same **proportions**. 
  * Have you noticed that on many websites, when you make the window bigger or smaller, things on the page automatically shrink and grow to match the window size? This is an example of **relative** measurements in action.
-3. Go to index.html where you have your picture of Tito (or the picture you uploaded). Delete the width attribute `width="100px"` and add an ID attribute for the image
- ```
-  <img id="imgTito" src="tito.png" alt="Tito the dog">
- ``` 
-4. In your CSS file and add the following code
- ```
-  #imgTito {
-    width: 50%;
-  }
- ```
+3. Go to index.html and find the `img` element with the picture of Tito. Delete the width attribute `width="100px"`.
+  ```
+    <img id="imgTito" src="tito.png" alt="Tito the dog">
+  ``` 
+4. In your CSS file find the `#imgTito` code block and add the `width` property below:
+  ```
+    #imgTito {
+      border-radius: 100%;
+      width: 50%;
+    }
+  ```
  * 50% (50 percent) is **half**
 5. Try a few different percentages and see if you can work out what it's doing.
  * When you're using **relative** measurements it's important to know what the **parent** of your element is. The **parent** is the thing that your element is inside, and that's what the measurement will be in relation to. For example, parent of the image above is the `main` because the `img` tag is in between the `<main></main> tags`.
