@@ -33,14 +33,16 @@
  ```
  * If you don't give `section` elements a width, they fill up all the space available, which is usually a good thing!
 8. You should notice that the picture is much smaller now. That is because it is taking up 50% of the width of the `section` element instead of the `article` element \(which is the width of the page\).
-9. Another **relative** unit of measurement is `em`, which is related to the size of your text. Add the following to your html file, outside of the article tags.
- ```
-  <p class="funsize">A magical paragraph</p>
- ```
+9. Another **relative** unit of measurement is `em`, which is related to the size of your text. **Cut** the heading `<h1>Welcome to Ireland!</h1>` and **paste** it on a new line _above_ the opening `<article>` tag, so that it's outside of the `article` element. Add a class **attribute** to the heading as well.
+  ```
+    <main>	
+      <h1 class="funsize">Welcome to Ireland!</h1>
+      <article>
+  ```
  Then, in your CSS file, add the following code
  ```
     .funsize {
-      border: 2px solid slateblue;
+      border: 2px solid #FFFFFF;
       padding: 5px;
       font-family: "Helvetica", sans-serif;
       font-size: 1.5em;
