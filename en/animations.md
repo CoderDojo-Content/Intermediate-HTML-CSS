@@ -41,8 +41,7 @@
     ```
         <img id="imgTito" class="solidRoundBorders animateMe" src="tito.png" alt="Tito the dog" width="100px">
     ```
- * What do you think the new lines will do? Run your code and find out!
-7. Did you notice that this time you used `0%` and `100%` instead of `from` and `to` to set the start and end values of your animation? With **percentages** you're able to set in between values as well as just start and end! Go to the bottom of your CSS file and add the following code
+7. Did you notice that this time you used `0%` and `100%` instead of `from` and `to` to set the start and end values of your animation? With **percentages** you're able to set in between values as well as just start and end! Change the animation code so that it looks like this: 
     ```
         @keyframes spinAroundAnimation {
             0% {
@@ -52,7 +51,7 @@
                 transform: rotate(-180deg);
             }
             100% {
-                transform: rotate(0);
+                transform: rotate(360deg);
             }
         }
     ```
