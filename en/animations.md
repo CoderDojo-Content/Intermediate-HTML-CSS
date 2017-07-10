@@ -10,40 +10,36 @@
         }
     ```
     * This code creates an animation called "my-first-animation" that you can add to any element on your website. What do you think it does?
-2. Go to the file index.html and add the following code:
+2. Find your CSS rules for the ID `#myCoolText` and add the following properties inside the curly braces:
     ```
-        <h1>Hey, now you can do animations!</h1>
-        <h1 id="my-cool-heading">Cool!!</h1>
-    ```
-3. Go to the stylesheet and create CSS rules for the element, using the ID selector:
-    ```
-        #my-cool-heading {
-            background-color: #ffe680;
-            border-style: solid;
-            border-width: 3px;
-            padding: 20px;
-            width: 80px;
-        }
-    ```
-4. Now add the following properties to the same set of rules:
-    ```
-        animation-name: my-first-animation;
+        animation-name: myFirstAnimation;
         animation-duration: 2s;
         animation-iteration-count: 1;
     ```
-5. Run your code to see what happens! Did the colours change? 
-6. Let's add some movement! Change your animation so that it looks like this
+ * Check the index.html file to make sure you still have a paragraph with the attribute `id="myCoolText"`
+3. Run your code to see what happens! Did the colours change?
+4. Change the value of `animation-iteration-count` to another number instead of 1 and run your code again to see what it does.
+5. Let's try another animation! Add the following code to the end of your CSS file: 
     ```
-        @keyframes my-first-animation {
+        @keyframes spinAroundAnimation {
             from {
-                background-color: #ffe680;
                 transform: rotate(0deg);
             }
             to {
-                background-color: purple;
                 transform: rotate(360deg);
             }
         }
+        
+        .animateMe {
+            animation-name: spinAroundAnimation;
+            animation-duration: 1s;
+            animation-iteration-count: 3;
+        }
+    ```
+ * The second block is a new CSS class
+6. In index.html, add the class `animateMe` to the picture of Tito
+    ```
+        <img id="imgTito" class="solidRoundBorders animateMe" src="tito.png" alt="Tito the dog" width="100px">
     ```
  * What do you think the new lines will do? Run your code and find out!
 7. Another way to set start and end values is with **percentages** instead of the keywords `from` and `to`. That allows you to set in between values as well! Go to the bottom of your CSS file and add the following code
