@@ -14,15 +14,15 @@
   ```
  * 50% (50 percent) is **half**
 5. Try a few different percentages and see if you can work out what it's doing.
- * When you're using **relative** measurements it's important to know what the **parent** of your element is. The **parent** is the thing that your element is inside, and that's what the measurement will be in relation to. For example, parent of the image above is the `main` because the `img` tag is in between the `<main></main> tags`.
-6. Now in your html file, put the image inside an `article` element. Include some text too. 
- ```
-  <article>
-     <img id="imgTito" src="tito.png" alt="Tito the dog">  		
-     <p>
-       This is Tito. He will be your tourguide! As you can see, Tito loves CoderDojo.
-     </p>
-   </article>
+ * When you're using **relative** measurements it's important to know what the **parent** of your element is. The **parent** is the thing that your element is inside, and that's what the measurement will be in relation to. For example, **parent** of the image above is the `article` element because the `img` element is in between the `<article></article> tags`.
+6. Now in your html file, put the image inside a `section` element with `id` "titoSection". Include some text too. 
+  ```
+    <section id="titoSection">
+      <img id="imgTito" src="tito.png" alt="Tito the dog">  		
+      <p>
+        This is Tito. He will be your tourguide! As you can see, Tito loves CoderDojo.
+      </p>
+    </section>
   ```
 7. Add the following code to your stylesheet, so you can see what's going on more clearly
  ```
@@ -31,8 +31,8 @@
     background-color: white;
   }
  ```
- * If you don't give `article`s a width, they fill up all the space available, which is usually a good thing!
-8. You should notice that the picture is much smaller now. That is because it is taking up 50% of the width of the `article` element instead of the `main` element (which is the width of the page).
+ * If you don't give `section` elements a width, they fill up all the space available, which is usually a good thing!
+8. You should notice that the picture is much smaller now. That is because it is taking up 50% of the width of the `section` element instead of the `article` element \(which is the width of the page\).
 9. Another **relative** unit of measurement is `em`, which is related to the size of your text. Add the following to your html file, outside of the article tags.
  ```
   <p class="funsize">A magical paragraph</p>
