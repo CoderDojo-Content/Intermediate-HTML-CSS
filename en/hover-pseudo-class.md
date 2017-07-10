@@ -1,4 +1,4 @@
-1. You can make your website more **interactive** by making cool stuff happen when you hover over things with the mouse! In styles.css, find the CSS rules for the class `.solidRoundBorders` and add a new block of rules right underneath:
+1. You can make your website more **interactive** by making cool stuff happen when you hover over things with the mouse! In styles.css, find the CSS rules for the class `.solidRoundBorders` and add a new block of rules right underneath: ......MAYBE ADD TO SECTION TAG INSTEAD??
   ```  
     .solidRoundBorders {
       border-style: solid;
