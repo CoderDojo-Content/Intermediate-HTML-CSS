@@ -41,7 +41,9 @@
     ```
         <img id="imgTito" class="solidRoundBorders animateMe" src="tito.png" alt="Tito the dog" width="100px">
     ```
-7. Did you notice that this time you used `0%` and `100%` instead of `from` and `to` to set the start and end values of your animation? With **percentages** you're able to set in between values as well as just start and end! Change the animation code so that it looks like this: 
+7. In the `.animateMe` CSS class, change the `animation-iteration-count` from `3` to `infinite`. What happens when you run your code now?
+ * You can also play with different values for `animation-duration` to speed up or slow down your animation. 
+8. Did you notice that in the second animation you used `0%` and `100%` instead of `from` and `to` to set the start and end values? With **percentages** you're able to set in between values as well as just start and end values. Change the animation code so that it looks like this: 
     ```
         @keyframes spinAroundAnimation {
             0% {
@@ -57,24 +59,9 @@
     ```
     * You can set as many in between values as you like using different percentages
     * Values for rotate can go from 0deg up to 360deg (full circle). A **minus** number means it rotates backwards!
-8. Go to the file index.html and add the following code below the new stuff:
-    ```
-        <p id="emoji-text">(",)</p>
-    ```
-9. Go to the stylesheet and create CSS rules for the element, using the ID selector:
-    ```
-        #emoji-text {
-            text-align: center;
-            font-size: 60px;
-            animation-name: spin-around;
-            animation-duration: 2s;
-            animation-iteration-count: 3;
-        }
-    ```
-10. Change the `animation-iteration-count` from `3` to `infinite`. What happens when you run your code now?
-11. You can also play with different values for `animation-duration` to speed up or slow down your animation. 
-12. Extra challenges:
- * Add some code to the `spin-around` animation to make the text change colour. Remember the property for text colour is called `color` 
+10. Try adding the `animateMe` class to other elements on your website (by adding the **attribute** `class="animateMe" inside the opening tag!) to make them spin too!
+9. Extra challenges:
+ * Add some code to the `myFirstAnimation` animation to make the text change colour. Remember the property for text colour is called `color` 
  * Add another in-between value, for example 75%, which sets different rotation and colour values.
 13. You can put the `animation` properties into the CSS rules for any element on your website. How about making one of your images spin around?
  * To learn about more things you can do with animation, visit dojo.soy/css-animation**TODO-LINK**
