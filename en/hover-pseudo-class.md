@@ -13,8 +13,8 @@
     }
   ```  
 Check index.html and other html files to see where your section elements are. Then run the code and move the mouse over those sections to see what happens!
-2. You've just used a special type of CSS block called a **pseudo-class**. The `:hover` bit is the **pseudo-class**. It's a bit like a class, but it comes built in so you don't need to add it to anything in your HTML code. All you need to do to use it is to create `:hover` style rules in your CSS file for whatever elements you want to use it on.
- * You can use the `:hover` pseudo-class with any selector in CSS: element selectors as above, or class selectors \(for example, `.solidRoundBorders:hover`\), or ID selectors \(for example `#myCoolText:hover`\)
+2. You've just used a special type of CSS block called a **pseudo-class**. The `:hover` bit is the **pseudo-class**. It's a bit like a **class**, but it comes built in so you don't need to add it to anything in your HTML code. All you need to do to use it is to create `:hover` style rules in your CSS file for whatever elements you want to use it on. It works with any kind of CSS **selector**: **element selectors** as above, or **class selectors** \(for example, `.solidRoundBorders:hover`\), or **ID selectors** \(for example `#myCoolText:hover`\).
+
 3. Let's use this new `:hover` **pseudo-class** together with a CSS class to make links glow when you hover over them! Add a link to your web page and include an attribute to specify the class name. Remember, links are defined using the `a` tag.
   ```html
     <a class="nice-links" href="http://www.failteireland.ie/">Irish Tourism website</a>
@@ -31,7 +31,8 @@ Check index.html and other html files to see where your section elements are. Th
       border-radius: 10px;
     }
   ```
- * Why not add the attribute `class="nice-links"` to all of the links in your menu bar as well? This will make your menu bar even more interactive!
+ 
+5. Why not add the attribute `class="nice-links"` to all of the links in your menu bar as well?
 
 5. You can combine all of these tricks with animations too! Add the following animation to your CSS file:
   ```css
@@ -60,4 +61,3 @@ Check index.html and other html files to see where your section elements are. Th
     animation-iteration-count: infinite;
   ```
   Now your link should have a glowing border that appears to pulse on and off whenever you hover the mouse over it!
-
