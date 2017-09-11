@@ -20,22 +20,20 @@ Delete the closing tag that Trinket automatically adds in for you.
       <section>
         <h2>The Cliffs of Moher</h2>
         <p>
-          The Cliffs of Moher are found in County Clare, where I am from. Look how cool they are!
-        </p>
-        <img src="cliffs.JPG" alt="The Cliffs of Moher" height="200px">
+        The Cliffs of Moher are found in County Clare, where I am from. Look how cool they are!</p>
+        <img src="cliffs.JPG" alt="The Cliffs of Moher" height="200px" />
       </section>
       <section>
         <h2>Achill Island</h2>
-        <p>
-          This is a large island off the coast of County Mayo. It has a wild and
+        <p>This is a large island off the coast of County Mayo. It has a wild and
         beautiful landscape of mountains, bogs and cliffs.
         </p>
-        <img src="achill.JPG" width="200px">
+        <img src="achill.JPG" width="200px" />
       </section>
     </article>
   ```
 
-7. Once your content has been organised into `articles` and `sections` you can create CSS rules in the stylesheet to control how the different bits look! Here's an example of some CSS styling of the `article` and `section` containers. See if you can understand it and then make some of your own.
+7. Once your content has been organised into `articles` and `sections` you can create CSS rules in the stylesheet to control how the different bits look! Here's some example CSS styling. See if you can understand it and then make some of your own.
   ```
     section {
       border-top-style: solid;
