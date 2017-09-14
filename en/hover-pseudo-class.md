@@ -1,7 +1,6 @@
 1. You can make your website more **interactive** by making cool stuff happen when you hover over things with the mouse! Find your CSS rules for the **img** elements, or create some if you don't have any. Add in a border, and then add a new block of rules right underneath:
   ```css
     img {
-      border-radius: 30px;
       border: 2px solid White;
     }
     img:hover {
@@ -32,40 +31,20 @@
 
   Why not add the **attribute** `class="nice-links"` to all of the links in your menu bar as well?
 
-5. You can combine all of these tricks with animations too! Add the following animation to your CSS file:
-  ```css
-    @keyframes glowPulse {
-      0% {
-        color: deepskyblue;
-      }
-      50% {
-        color: lightgreen;
-      }
-      100% {
-        color: deepskyblue;
-      }
-    }
-  ```
-6. In your `.nice-links:hover` block, add three more CSS rules:
-  ```css
-    animation-name: glowPulse;
-    animation-duration: 1.5s;
-    animation-iteration-count: infinite;
-  ```
-  Now your link should have a glowing border that appears to pulse on and off whenever you hover the mouse over it!
-
-7. For your final trick, you will teach Tito to roll over! First, give the picture of Tito an **id** of _imgTito_ \(if you are working with your own project you can use any picture\).
+5. You can combine all of these tricks with animations too! Find the picture of Tito in the _index.html_ file and give it an **id** of _imgTito_ \(if you are working with your own project you can use any picture\).
   ```html
     <img id="imgTito" src="tito.png" alt="Tito the dog" width="100px">  
   ```
 
-8. Then add the following animation to your stylesheet file:
+7. Then add the following code to your stylesheet file:
   ```css
     #imgTito {
       border-radius: 100%;
     }
     #imgTito:hover {
-      animation: rollOver 1s 1;
+      animation-name: rollOver;
+      animation-duration: 1s;
+      animation-iteration-count: 1;
     }
     @keyframes rollOver {
       0% {
@@ -76,3 +55,9 @@
       }
     }
   ```
+  Can you guess what will happen?
+
+8. Run your code and shout "Roll over!" as you move the mouse over the picture!
+
+
+
