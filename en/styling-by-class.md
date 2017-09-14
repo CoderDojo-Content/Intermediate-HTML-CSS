@@ -1,17 +1,17 @@
-1. Let's design a theme for the Attractions page that's different from the homepage. Go to your stylesheet file and add the following. Be sure to include the dot in front!
+1. Let's design a theme for the Attractions page that's different from the other pages. Go to your stylesheet file and add the following. Be sure to include the dot in front!
    ```css
-          .purpleBackground {
+          .pupleBackground {
               background-color: #9f80ff;
           }
    ```
    The dot makes this into a **class selector**. With a CSS **class** you can apply a set of CSS rules to any element on your website by adding an **attribute** to the element.
 
-2. Now go to _attractions.html_ and add the following **attribute** to the `<article>` tag:
+2. Now go to _attractions.html_ \(or the page you're working on if you're using your own project\) and add the following **attribute** to the **article** tag:
 
    ```html
         <article class="purpleBackground">
    ```
-   You should see the green background disappear from around the text on the Attractions page. Next you're going to make each section on that page have the green background instead!
+   You should see the background change around the text on the page.
 
 3. Add the following class to your stylesheet:
 
@@ -21,7 +21,7 @@
         }
    ```
 
-   Back in the attractions.html file, add the attribute `class="greenBackground"` to each of the section tags, just like you did for the **article** element. Click Run and look at the Attractions page. Compare it to the other pages that have **section** elements.
+   Back in the **html** file, add the **attribute** `class="greenBackground"` to each of the **section** tags, just like you did for the **article** element. Click Run and look at the Attractions page. Compare it to the other pages that have **section** elements.
 
 4. When you use a CSS **element selector** such as **section**, the style rules apply to _all_ the elements of that type on your website. With CSS **classes** you're able to just change _some_ of them. You can add more than one class to an element too. Let's make another CSS **class** to give the sections some margin and padding. In _styles.css_, add the following code:
    ```css
@@ -30,13 +30,13 @@
           margin-top: 20px;
         }
    ```
-5. In attractions.html, add the new class to each of the sections like this:
+5. In the **html**, add the new class to each of the sections like this:
    ```html
         <section class="greenBackground sectionSpacing">
    ```
-   You can add as many CSS classes to an element as you like. Just write the names of all the classes you want to use inside the **class** attribute, and separate them with spaces.
+   You can add as many CSS classes to an element as you like. Just write the names of all the classes you want to use inside the **class attribute**, and separate them with spaces.
 
-6. How about re-vamping the Food page? Add the following classes to your stylesheet:
+6. How about re-vamping the Food page? \(If you're using your own website, you'll need another page with some **sections** on it\) Add the following classes to your stylesheet:
 
    ```css
         .yellowBackground {
@@ -52,7 +52,7 @@
         }
    ```
 
-   In the food.html file, add the new classes as well as the `.sectionSpacing` class to each section:
+   Go to the _food.html_ file \(or your own file\) and add the new classes as well as the `.sectionSpacing` class to each section:
 
    ```html
         <section class="yellowBackground sectionSpacing solidRoundBorders">
@@ -64,6 +64,6 @@
         <img id="imgTito" class="solidRoundBorders" src="tito.png" alt="Tito the dog" width="100px">
    ```
 
-8. Why not experiment with some more CSS classes to make the other pages on your website have their own themes? You can name a CSS class anything you like. It's common to give it a name that describes what it does or what it's for!
+8. Why not experiment with some more CSS classes to make the other pages have their own themes? You can name a CSS class anything you like. It's common to give it a name that describes what it does or what it's for!
 
-9. Extra challenge: use CSS **classes** to define a few different picture sizes for your website, for example `.smallPictures` and `.mediumPictures`. Then remove the **width** attribute from each of your **img** elements and add the appropriate class instead.
+9. Extra challenge: use CSS **classes** to define a few different picture sizes for the website, for example `.smallPictures` and `.mediumPictures`. Then remove the **width** attribute from each of your **img** elements and add the appropriate class instead.

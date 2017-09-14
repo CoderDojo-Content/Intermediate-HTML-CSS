@@ -15,6 +15,7 @@ Delete the closing tag that Trinket automatically adds in for you.
 
 4. Think of the **article** element as a **container** for a piece of content, in this case a set of information about attractions in my home country, Ireland. If you have different bits of content that aren't related, you should put each one into its own **article** element instead of putting one set of the tags around the whole lot.
  * Remember when you created a menu and then put it in between `<nav> </nav>` tags? That's another example of a type of container. What you are doing is telling the browser that everything in between these tags belongs together. Like organising things in boxes and shelves in your home!
+
  ```
     <article>
       <h1>My favourite places to see in Ireland</h1>
@@ -65,4 +66,4 @@ Delete the closing tag that Trinket automatically adds in for you.
       padding: 10px;
     }
   ```
-8. Have a go at organising all of your HTML files in this way. If you get stuck, check out [***TODO*** dojo.soy/organised-html](https://trinket.io/html/3b6fa2e6ba?runMode=run) for an example!
+8. Have a go at organising all of your HTML files in this way. In my example I've added an **article** with a bunch of **sections** onto the Food page. On the next card you'll design a different theme for each page that's organised into **articles** and **sections**!
