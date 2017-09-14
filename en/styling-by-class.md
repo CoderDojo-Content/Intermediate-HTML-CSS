@@ -61,7 +61,7 @@
 7. Notice how you can mix and match the classes in your element's class attribute? Using CSS classes lets you **reuse** the same set of style rules on lots of elements. You can apply them to any element that has the properties you've set. Go to _index.html_ and add the _solidRoundBorders_ class to the picture of Tito.
 
    ```html
-        <img id="imgTito" class="solidRoundBorders" src="tito.png" alt="Tito the dog" width="100px">
+        <img class="solidRoundBorders" src="tito.png" alt="Tito the dog" width="100px">
    ```
 
 8. Why not experiment with some more CSS classes to make the other pages have their own themes? You can name a CSS class anything you like. It's common to give it a name that describes what it does or what it's for!

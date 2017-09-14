@@ -9,6 +9,7 @@
 2. Now go to your stylesheet and add the following code
     ```css
         #myCoolText {
+            color: #000080;
             border: 2px ridge #add8e6;
             padding: 15px;
             text-align: center;
@@ -31,7 +32,8 @@
         }
     ```
     You just used a **gradient**! You can make lots of different effects with gradients. If you want to learn more, go to [dojo.soy/html-css-gradients](https://www.w3schools.com/css/css3_gradients.asp).
+ * The first **background** property sets a default colour for browsers that don't support gradients.
 
 7. Try giving another element an **id** and styling that element using the id selector with **#** as above. How about making the picture of Tito have a **border-radius** of _100%_ so that it's fully rounded? Any other pictures on the website will stay the same as they are.
-![](assets/frontPageStyle.png)
+![](assets/frontPageStylePastel.png)
 

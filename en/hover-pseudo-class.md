@@ -31,12 +31,8 @@
 
   Why not add the **attribute** `class="nice-links"` to all of the links in your menu bar as well?
 
-5. You can combine all of these tricks with animations too! Find the picture of Tito in the _index.html_ file and give it an **id** of _imgTito_ \(if you are working with your own project you can use any picture\).
-  ```html
-    <img id="imgTito" src="tito.png" alt="Tito the dog" width="100px">  
-  ```
-
-7. Then add the following code to your stylesheet file:
+5. You can combine all of these tricks with animations too! Find the _#imgTito_ CSS block in your stylesheet that you used to style the picture of Tito earlier. \(if you are working with your own project you can use any picture and _id_\).
+Add the following code to your stylesheet file:
   ```css
     #imgTito {
       border-radius: 100%;
