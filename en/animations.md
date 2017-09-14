@@ -36,13 +36,14 @@
             animation-iteration-count: 3;
         }
     ```
- * The second block is a new CSS class
+ The second block is a new **CSS class**
 6. In index.html, add the class `animateMe` to the picture of Tito and then click Run to see the new animation.
     ```
         <img id="imgTito" class="solidRoundBorders animateMe" src="tito.png" alt="Tito the dog" width="100px">
     ```
 7. In the `.animateMe` CSS class, change the `animation-iteration-count` from `3` to `infinite`. What happens when you run your code now?
- * You can also play with different values for `animation-duration` to speed up or slow down your animation. 
+
+8. You can also play with different values for `animation-duration` to speed up or slow down your animation. 
 8. Did you notice that in the second animation you used `0%` and `100%` instead of `from` and `to` to set the start and end values? With **percentages** you're able to set in between values as well as just start and end values. Change the animation code so that it looks like this: 
     ```
         @keyframes spinAroundAnimation {
@@ -59,8 +60,8 @@
         }
     ```
     * You can set as many in between values as you like using different percentages
-    * Values for rotate can go from 0deg up to 360deg (full circle). A **minus** number means it rotates backwards!
-9. Try adding the `animateMe` class to other elements on your website (by adding the **attribute** `class="animateMe" inside the opening tag!) to make them spin too!
+    * Values for rotate can go from _0deg_ up to _360deg_ \(full circle\). A **minus** number means it rotates backwards!
+9. Try adding the `animateMe` class to other elements on your website \(by adding the **attribute** `class="animateMe"` inside the opening tag\) to make them spin too!
 10. Extra challenges:
  * Add some code to the `myFirstAnimation` animation to make the text change colour. Remember the property for text colour is called `color` 
  * Add another in-between value to `spinAroundAnimation`, for example 75%, which sets a different rotation value.

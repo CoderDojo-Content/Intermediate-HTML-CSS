@@ -6,7 +6,7 @@
 * [Design some themes](styling-by-class.md)
 * [Individual style](styling-individual-elements.md)
 * [Sneak a peek!](developer-tools.md)
+* [Sizing it up](relative-and-absolute-measurements.md)
 * [Animation](animations.md)
-* [Hover effects](hover-pseudo-class.md)
-* [Size may vary](relative-and-absolute-measurements.md)
+* [Teach Tito to roll over!](hover-pseudo-class.md)
 

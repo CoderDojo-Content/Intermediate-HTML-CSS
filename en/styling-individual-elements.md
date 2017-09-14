@@ -32,18 +32,8 @@
 7. Try giving another element an `id` and styling that element using the id selector with `#` as above. How about making the picture of Tito have a `border-radius` of `100%` so that it's fully rounded? Your other pictures will stay the same as they are.
  * It's possible to give an element its own CSS rules using **id** _and_ give it one or more CSS classes at the same time. If there is a property that's defined in both a **class** and in the **id** rules, the one in the **id** rules is the one that wins!
 
-8. For one last trick, change the paragraph code underneath the picture so it looks like this:
-    ```html
-        <p id="titoText">
-        This is <span class="specialText">Tito</span>. He will be your tourguide! As you can see, Tito <span class="specialText">loves</span> CoderDojo.
-      </p>
-    ```
-    A **span** is a special tag you can use just for adding CSS! You can put anything in between a pair of **span** tags. It's useful for things like styling a _part_ of the text in a paragraph.
-    
-9. Did you spot the **CSS class** in there? Now create the CSS rules for the **class** in your stylesheet:
+8. 
     ```css
-        .specialText {
-            color: #00ff00;
-            font-size: larger;
-        }
+        background: #48D1CC;
+        background: linear-gradient(#fea3aa, #f8b88b, #faf884, #baed91, #baed91, #b2cefe, #f2a2e8, #fea3aa);
     ```
