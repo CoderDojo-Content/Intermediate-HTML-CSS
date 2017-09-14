@@ -20,20 +20,7 @@
  * Check the index.html file to make sure you still have a paragraph with the **attribute** `id="myCoolText"`. If not, add the **attribute** to one of the paragraphs!
 3. Run your code to see what happens! Did the background change colours? Change the value of **animation-iteration-count** to another number instead of _1_ and run your code again to see what it does.
 
-5. Let's try another animation! Add the following code to the end of your CSS file: 
-   ```css
-        @keyframes glowPulse {
-            0% {
-                color: DeepSkyBlue;
-            }
-            100% {
-                color: purple;
-            }
-        }
-   ```
-Now change the **animation-name** property to _glowPulse_ in the _#myCoolText_ rules and run your code to see what happens.
-
-6. Did you notice that in the second animation you used `0%` and `100%` instead of `from` and `to`? With **percentages** you're able to set in between values as well as just start and end values. Change the animation code so that it looks like this: 
+5. Let's try another animation! Add the following code to the end of your CSS file:
    ```css
         @keyframes glowPulse {
             0% {
@@ -47,7 +34,9 @@ Now change the **animation-name** property to _glowPulse_ in the _#myCoolText_ r
             }
         }
    ```
-   You can set as many in between values as you like using different percentages. Try adding in more colours to the glowing sequence above, for example at _25%_ and _75%_!
+   Now change the **animation-name** property to _glowPulse_ in the _#myCoolText_ rules and run your code to see what happens.
+
+6. When you use **percentages** instead of **from** and **to**, you're able to set in between values as well as just start and end values. You can set as many in between values as you like using different percentages. Try adding in more colours to the glowing sequence above, for example at _25%_ and _75%_!
 
 7. Change the value of **animation-iteration-count** to _infinite_. What do you think will happen?
  * You can also play with different values for **animation-duration** to speed up or slow down your animation.
