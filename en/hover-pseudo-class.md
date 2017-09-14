@@ -59,5 +59,7 @@
 
 8. Run your code and shout "Roll over!" as you move the mouse over the picture!
 
+9. Can you use the _glowPulse_ animation from the previous card to make the _niceLinks_ keep changing colours when the mouse is hovering over them? \(Hint: use a value of _infinite_ for the **animation-iteration-count**\)
+
 
 

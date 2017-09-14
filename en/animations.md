@@ -1,69 +1,78 @@
 1. Go to the bottom of your CSS file and add the following code
-    ```
+   ```css
         @keyframes myFirstAnimation {
             from {
-                background-color: #ffe680;
+                background-color: #ff00ff;
             }
             to {
-                background-color: purple;
+                background-color: #00ffff;
             }
         }
-    ```
-    * This code creates an animation called "myFirstAnimation" that you can add to any element on your website. What do you think it does?
-2. Find your CSS rules for the ID `#myCoolText` and add the following properties inside the curly braces:
-    ```
-        animation-name: myFirstAnimation;
-        animation-duration: 2s;
-        animation-iteration-count: 1;
-    ```
- * Check the index.html file to make sure you still have a paragraph with the attribute `id="myCoolText"`
-3. Run your code to see what happens! Did the colours change?
-4. Change the value of `animation-iteration-count` to another number instead of 1 and run your code again to see what it does.
-5. Let's try another animation! Add the following code to the end of your CSS file: 
-    ```
-        @keyframes spinAroundAnimation {
-            0% {
-                transform: rotate(0deg);
-            }
-            100% {
-                transform: rotate(360deg);
-            }
-        }
-        
-        .animateMe {
-            animation-name: spinAroundAnimation;
-            animation-duration: 1s;
-            animation-iteration-count: 3;
-        }
-    ```
- The second block is a new **CSS class**
-6. In index.html, add the class `animateMe` to the picture of Tito and then click Run to see the new animation.
-    ```
-        <img id="imgTito" class="solidRoundBorders animateMe" src="tito.png" alt="Tito the dog" width="100px">
-    ```
-7. In the `.animateMe` CSS class, change the `animation-iteration-count` from `3` to `infinite`. What happens when you run your code now?
+   ```
+* This code creates an animation called "myFirstAnimation" that you can add to any element on your website. What do you think it does?
 
-8. You can also play with different values for `animation-duration` to speed up or slow down your animation. 
-8. Did you notice that in the second animation you used `0%` and `100%` instead of `from` and `to` to set the start and end values? With **percentages** you're able to set in between values as well as just start and end values. Change the animation code so that it looks like this: 
-    ```
-        @keyframes spinAroundAnimation {
+2. Find your CSS rules for the ID _#myCoolText_ \(or create new ones if you need to\) and add the following three properties:
+   ```css
+        animation-name: myFirstAnimation;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+   ```
+ * Check the index.html file to make sure you still have a paragraph with the **attribute** `id="myCoolText"`. If not, add the **attribute** to one of the paragraphs!
+3. Run your code to see what happens! Did the background change colours? Change the value of **animation-iteration-count** to another number instead of _1_ and run your code again to see what it does.
+
+5. Let's try another animation! Add the following code to the end of your CSS file: 
+   ```css
+        @keyframes glowPulse {
             0% {
-                transform: rotate(0deg);
-            }
-            25% {
-                transform: rotate(-180deg);
+                color: DeepSkyBlue;
             }
             100% {
-                transform: rotate(360deg);
-                border-color: red;
+                color: purple;
             }
         }
-    ```
-    * You can set as many in between values as you like using different percentages
-    * Values for rotate can go from _0deg_ up to _360deg_ \(full circle\). A **minus** number means it rotates backwards!
-9. Try adding the `animateMe` class to other elements on your website \(by adding the **attribute** `class="animateMe"` inside the opening tag\) to make them spin too!
-10. Extra challenges:
- * Add some code to the `myFirstAnimation` animation to make the text change colour. Remember the property for text colour is called `color` 
- * Add another in-between value to `spinAroundAnimation`, for example 75%, which sets a different rotation value.
-11. Why not try making your own new animation using the `@keyframes` keyword and a name that you choose? Use the code you learned above to help you. How about making some text change colour as well as rotate!
+   ```
+Now change the **animation-name** property to _glowPulse_ in the _#myCoolText_ rules and run your code to see what happens.
+
+6. Did you notice that in the second animation you used `0%` and `100%` instead of `from` and `to`? With **percentages** you're able to set in between values as well as just start and end values. Change the animation code so that it looks like this: 
+   ```css
+        @keyframes glowPulse {
+            0% {
+                color: DeepSkyBlue;
+            }
+            50% {
+                color: LightGreen;
+            }
+            100% {
+                color: DeepSkyBlue;
+            }
+        }
+   ```
+   You can set as many in between values as you like using different percentages. Try adding in more colours to the glowing sequence above, for example at _25%_ and _75%_!
+
+7. Change the value of **animation-iteration-count** to _infinite_. What do you think will happen?
+ * You can also play with different values for **animation-duration** to speed up or slow down your animation.
+
+8. One final trick! Add this animation code:
+   ```css
+        @keyframes slide {
+        0% {
+            background-position-x: 0;
+        }
+        100% {
+            background-position-x: 600vw;
+        }
+        }
+   ```
+   Now find the _#frontPage_ CSS rules from earlier and change them to:
+   ```css
+
+    #frontPage {
+        background: repeating-linear-gradient(-45deg, red 0%, yellow 7.14%, lime 14.28%, cyan 21.42%, cyan 28.56%, blue 35.7%, magenta 42.84%, red 50%);
+    background-size: 600vw 600vw;
+    animation: slide 10s infinite linear forwards;
+    }
+   ```
+   Don't worry about understanding _all_ of it... just sit back and enjoy!!
+  
  * To learn about more things you can do with animation, visit dojo.soy/css-animation**TODO-LINK**
+
