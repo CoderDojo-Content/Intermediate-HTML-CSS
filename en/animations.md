@@ -1,6 +1,6 @@
 1. Go to the bottom of your CSS file and add the following code
     ```
-        @keyframes my-first-animation {
+        @keyframes myFirstAnimation {
             from {
                 background-color: #ffe680;
             }
@@ -9,7 +9,7 @@
             }
         }
     ```
-    * This code creates an animation called "my-first-animation" that you can add to any element on your website. What do you think it does?
+    * This code creates an animation called "myFirstAnimation" that you can add to any element on your website. What do you think it does?
 2. Find your CSS rules for the ID `#myCoolText` and add the following properties inside the curly braces:
     ```
         animation-name: myFirstAnimation;
