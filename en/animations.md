@@ -69,5 +69,5 @@
    ```
    Don't worry about understanding _all_ of it... just sit back and enjoy!!
 
-10. Try making your own new animation using the **@keyframes** keyword and a name that you choose. Use the code you learned above to help you. You can add any properties you like in the animation blocks. How about animating your nav menu? To learn about more things you can do with animation, visit [dojo.soy/css-animation](https://www.w3schools.com/css/css3_animations.asp). Have fun!
+10. Try making your own new animation using the **@keyframes** keyword and a name that you choose. How about animating your nav menu? To learn about more things you can do with animation, visit [dojo.soy/css-animation](https://www.w3schools.com/css/css3_animations.asp). Have fun!
 
