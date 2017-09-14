@@ -2,23 +2,23 @@
    ```css
         @keyframes myFirstAnimation {
             from {
-                background-color: #ff00ff;
+                width: 100px;
             }
             to {
-                background-color: #00ffff;
+                width: 300px;
             }
         }
    ```
 * This code creates an animation called "myFirstAnimation" that you can add to any element on your website. What do you think it does?
 
-2. Find your CSS rules for the ID _#myCoolText_ \(or create new ones if you need to\) and add the following three properties:
+2. Find your CSS rules for the ID _#imgTito_ and add the following three properties:
    ```css
         animation-name: myFirstAnimation;
-        animation-duration: 3s;
+        animation-duration: 2s;
         animation-iteration-count: 1;
    ```
- Check the index.html file to make sure you still have a paragraph with the **attribute** `id="myCoolText"`. If not, add the **attribute** to one of the paragraphs!
-3. Run your code to see what happens! Did the background change colours? Change the value of **animation-iteration-count** to another number instead of _1_ and run your code again to see what it does.
+
+3. Run your code to see what happens! Change the value of **animation-iteration-count** to another number instead of _1_ and run your code again to see what it does.
 
 5. Let's try another animation! Add the following code to the end of your CSS file:
    ```css
@@ -34,7 +34,14 @@
             }
         }
    ```
-   Now change the **animation-name** property to _glowPulse_ in the _#myCoolText_ rules and run your code to see what happens.
+   Now find the _#myCoolText_ CSS rules from earlier and add in the animation code:
+   ```css
+    #myCoolText {
+            animation-name: myFirstAnimation;
+            animation-duration: 2s;
+            animation-iteration-count: 1;
+    }
+   ```
 
 6. When you use **percentages** instead of **from** and **to**, you're able to set in between values as well as just start and end values. You can set as many in between values as you like using different percentages. Try adding in more colours to the glowing sequence above, for example at _25%_ and _75%_!
 
@@ -62,7 +69,7 @@
    ```
    Don't worry about understanding _all_ of it... just sit back and enjoy!!
   
- 9. Why not try making your own new animation using the **@keyframes** keyword and a name that you choos? Use the code you learned above to help you. You can add any properties you like in the animation blocks. How about animating your nav menu?
+ 9. Why not try making your own new animation using the **@keyframes** keyword and a name that you choose? Use the code you learned above to help you. You can add any properties you like in the animation blocks. How about animating your nav menu?
  
  10. To learn about more things you can do with animation, visit [dojo.soy/css-animation](https://www.w3schools.com/css/css3_animations.asp). Have fun!
 
