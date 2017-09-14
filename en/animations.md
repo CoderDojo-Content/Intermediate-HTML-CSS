@@ -17,7 +17,7 @@
         animation-duration: 3s;
         animation-iteration-count: 1;
    ```
- * Check the index.html file to make sure you still have a paragraph with the **attribute** `id="myCoolText"`. If not, add the **attribute** to one of the paragraphs!
+ Check the index.html file to make sure you still have a paragraph with the **attribute** `id="myCoolText"`. If not, add the **attribute** to one of the paragraphs!
 3. Run your code to see what happens! Did the background change colours? Change the value of **animation-iteration-count** to another number instead of _1_ and run your code again to see what it does.
 
 5. Let's try another animation! Add the following code to the end of your CSS file:
@@ -54,14 +54,15 @@
    ```
    Now find the _#frontPage_ CSS rules from earlier and change them to:
    ```css
-
-    #frontPage {
-        background: repeating-linear-gradient(-45deg, red 0%, yellow 7.14%, lime 14.28%, cyan 21.42%, cyan 28.56%, blue 35.7%, magenta 42.84%, red 50%);
-    background-size: 600vw 600vw;
-    animation: slide 10s infinite linear forwards;
-    }
+        #frontPage {
+            background: repeating-linear-gradient(-45deg, red 0%, yellow 7.14%, lime 14.28%, cyan 21.42%, cyan 28.56%, blue 35.7%, magenta 42.84%, red 50%);
+            background-size: 600vw 600vw;
+            animation: slide 10s infinite linear forwards;
+        }
    ```
    Don't worry about understanding _all_ of it... just sit back and enjoy!!
   
- * To learn about more things you can do with animation, visit dojo.soy/css-animation**TODO-LINK**
+ 9. Why not try making your own new animation using the **@keyframes** keyword and a name that you choos? Use the code you learned above to help you. You can add any properties you like in the animation blocks. How about animating your nav menu?
+ 
+ 10. To learn about more things you can do with animation, visit [dojo.soy/css-animation](https://www.w3schools.com/css/css3_animations.asp). Have fun!
 
