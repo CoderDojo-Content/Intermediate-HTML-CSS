@@ -57,5 +57,7 @@ Add the following code to your stylesheet file:
 
 9. Can you use the _glowPulse_ animation from the previous card to make the _niceLinks_ keep changing colours when the mouse is hovering over them? \(Hint: use a value of _infinite_ for the **animation-iteration-count**\)
 
+![](assets/badge-footer-image-html-intermed.png)
+
 
 
