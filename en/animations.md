@@ -69,5 +69,5 @@
    ```
    Don't worry about understanding _all_ of it... just sit back and enjoy!!
 
-10. Try making your own new animation using the **@keyframes** keyword and a name that you choose. How about animating your nav menu? To learn about more things you can do with animation, visit [html2-css-animation](http://dojo.soy/html2-css-animation). Have fun!
+10. Try making your own new animation using the **@keyframes** keyword and a name that you choose. How about animating your nav menu? To learn about more things you can do with animation, visit [dojo.soy/html2-css-animation](http://dojo.soy/html2-css-animation). Have fun!
 
