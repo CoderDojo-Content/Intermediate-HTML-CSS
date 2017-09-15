@@ -29,7 +29,7 @@
 10. Have a scroll through the **Elements** panel and see if you can locate other elements you recognise from your own code. They should become highlighted on your webpage as you move over the code with your mouse. When you click an element, its style rules will be shown on the right.
  * Click on the tiny grey triangles to expand elements that have more code inside them.
 
-11. You can use the Developer Tools to check out the code on other websites too! Why not go to [dojo.soy/html2-inspect](https://www.w3schools.com/css/default.asp), right click and Inspect. See if you understand any of the code you see. You can even make temporary changes! It's not going to change the website itself: Everything you do here is **local** \(in your browser\), which means only you see it.
+11. You can use the Developer Tools to check out the code on other websites too! Why not visit a few websites, right click and Inspect. See if you understand any of the code you see. You can even make temporary changes! It's not going to change the website itself: Everything you do here is **local** \(in your browser\), which means only you see it.
  * Remember, all these changes are **temporary**. When you reload the page or re-run your code, it will all reset. 
 
 

@@ -5,6 +5,7 @@
           }
    ```
    The dot makes this into a **class selector**. With a CSS **class** you can apply a set of CSS rules to any element on your website by adding an **attribute** to the element.
+  * You could pick the colour to match the background of your page!
 
 2. Now go to _attractions.html_ \(or the page you're working on if you're using your own project\) and add the following **attribute** to the **article** tag:
 
@@ -30,7 +31,7 @@
           margin-top: 20px;
         }
    ```
-5. In the **html**, add the new class to each of the sections like this:
+5. In the **html** page you were working on, add the new class to each of the sections like this:
    ```html
         <section class="greenBackground sectionSpacing">
    ```

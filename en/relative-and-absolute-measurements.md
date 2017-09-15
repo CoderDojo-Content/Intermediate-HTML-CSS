@@ -15,7 +15,7 @@
  50% (50 percent) is **half**. Try a few different percentages and see if you can work out what it's doing.
 
 4. When you're using **relative** measurements it's important to know what the **parent** of your element is. The **parent** is the thing that your element is inside, and that's what the measurement will be in relation to. For example, **parent** of the image above is the **article** element because the **img** element is in between the `<article></article>` tags.
-5. Now in your html file, put the image inside a **section** element with **id** _titoSection_. Include some text too. 
+5. Now in your html file, put the image inside a **section** element with **id** _titoSection_. Include some text in the section too. 
   ```html
     <section id="titoSection">
       <img id="imgTito" src="tito.png" alt="Tito the dog">  		
@@ -34,25 +34,24 @@
  ```
  * If you don't give **section** elements a width, they fill up all the space available, which is usually a good thing!
 
-7. You should notice that the picture is much smaller now. That is because it is taking up 50% of the width of the **section** element instead of the **article** element \(which is the width of the page\).
+7. You should notice that the picture is much smaller now. That is because it is taking up 50% of the width of the **section** element instead of the **article** element \(which is roughly the width of the page\).
 
 8. Another **relative** unit of measurement is `em`, which is related to the size of your text. **Cut** the heading `<h1>Welcome to Ireland!</h1>` and **paste** it on a new line _above_ the opening `<article>` tag, so that it's outside of the `article` element. Add a class **attribute** to the heading as well.
   ```html
     <main>	
       <h1 class="funsize">Welcome to Ireland!</h1>
-      <article>
+      <article id="frontPageArticle">
   ```
  Then, in your CSS file, add the following code. There is a border so you can see the spacing more easily.
  ```css
     .funsize {
       border: 2px solid #FFFFFF;
       padding: 5px;
-      font-family: "Helvetica", sans-serif;
-      font-size: large;
+      font-size: small;
     }
  ```
 
-9. Set the font-size to different values for example _smaller_, _small_, _medium_, _larger_. Can you see that the **padding** \(space between the border and the text\) doesn't change?
+9. Set the font-size to different values for example _smaller_, _small_, _medium_, _larger_, _xx-large_. Can you see that the **padding** \(space between the border and the text\) doesn't change?
 
 10. With the padding staying the same, the space starts to look small as the text gets bigger. Let's give it a **relative** value instead of the **absolute** pixel value. Change it to
   ```css
@@ -64,4 +63,4 @@
 
 12. You can use **em** values for anything you can set the size of, not just padding. Experiment with using it instead of **px** on borders, or instead of **%** on your image!
 
-13. Once you're done experimenting, delete the **section** tags you added around the image and also delete the _#titoSection_ CSS block!
+13. Once you're done experimenting, delete the **section** tags you added around the image and also delete the _#titoSection_ CSS block! Set the size of the Tito picture back to _100px_ as well.

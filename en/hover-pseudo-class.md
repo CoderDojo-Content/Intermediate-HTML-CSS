@@ -29,13 +29,13 @@
     }
   ```
 
-  Why not add the **attribute** `class="nice-links"` to all of the links in your menu bar as well?
+  Why not add the **attribute** `class="niceLinks"` to all of the links in your menu bar as well?
 
-5. You can combine all of these tricks with animations too! Find the _#imgTito_ CSS block in your stylesheet that you used to style the picture of Tito earlier. \(if you are working with your own project you can use any picture and _id_\).
-Add the following code to your stylesheet file:
+5. You can combine all of these tricks with animations too! Find the _#imgTito_ CSS block in your stylesheet again \(if you are working with your own project you can use any picture and _id_\). Add the following code to your stylesheet file:
   ```css
     #imgTito {
       border-radius: 100%;
+      width: 100px;
     }
     #imgTito:hover {
       animation-name: rollOver;
@@ -47,7 +47,7 @@ Add the following code to your stylesheet file:
         transform: rotate(0deg);
       }
       100% {
-        transform: rotate(360deg);
+        transform: rotate(-360deg);
       }
     }
   ```

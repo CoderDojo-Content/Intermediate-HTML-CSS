@@ -10,7 +10,7 @@
 3. When you click Run, your website should have a purple background. ![](assets/HexColourFirst.png) ![](assets/HexColourFirstResult.png)
 As you have seen, you can type in many different colour names as words and the browser will recognise them. But a more common way to set colours is to use a code like the one above, called a **HEX** code.
 
-4. Try it yourself: Go to [dojo.soy/html-colors](https://www.w3schools.com/colors/colors_names.asp) and choose a colour for your website. But instead of typing the name of the colour, type in the **HEX** code. ![](assets/ColorNamesHex.png)
+4. Try it yourself: Go to [html2-colors](http://dojo.soy/html2-colors) and choose a colour for your website. But instead of typing the name of the colour, type in the **HEX** code. ![](assets/ColorNamesHex.png)
 
 5. HEX codes allow you to mix any colour, even if it's not on any list of colours. Try making up your own colour code
    * The code must start with a **#**. This tells the browser that it is a HEX code instead of a colour name.
@@ -26,11 +26,11 @@ As you have seen, you can type in many different colour names as words and the b
  
  What do you think will happen if you use **less** of a colour? Change _FF_ to something smaller like _88_ or _33_ in each of the above colours and see.
 
-8. Let's try some mixing. What do you think you will get if you mix **red** and **blue**? You do it like this: _#FF0000_. How about **red** and **green**: _#FFFF00_? Try it out!
+8. Let's try some mixing. What do you think you will get if you mix **red** and **blue**? You do it like this: _#FF00FF_. How about **red** and **green**: _#FFFF00_? Try it out!
   * Try mixing with more of one colour and less of the other, for example _#FF8800_
 
 9. There are plenty of colour picking tools that help you get the HEX code for any colour you want. ![](assets/W3ColorPicker.png)
-Go to [dojo.soy/color-picker](https://www.w3schools.com/colors/colors_picker.asp) and try out the colour picker to choose some HEX colour codes to use for the rest of the styles on your website.
+Go to [html2-color-picker](http://dojo.soy/html2-color-picker) and try out the colour picker to choose some HEX colour codes to use for the rest of the styles on your website.
 
 10. Fun exercise: Take your six-digit date of birth and put a **#** symbol in front to make your own unique personal colour code! Try it out in your stylesheet. What colour did you get?
 
