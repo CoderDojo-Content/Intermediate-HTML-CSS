@@ -2,7 +2,7 @@
 
 2. Go to index.html and find the **img** element with the picture of Tito. Delete the width attribute if `width="100px"` if it's there, and give the element an **id** of _imgTito_.
   ```html
-    <img id="imgTito" src="tito.png" alt="Tito the dog">
+    <img id="imgTito" src="tito.png" alt="Tito the dog" />
   ``` 
 
 3. In your CSS file find the `#imgTito` code block and add the `width` property below:
@@ -16,14 +16,14 @@
 
 4. When you're using **relative** measurements it's important to know what the **parent** of your element is. The **parent** is the thing that your element is inside, and that's what the measurement will be in relation to. For example, **parent** of the image above is the **article** element because the **img** element is in between the `<article></article>` tags.
 5. Now in your html file, put the image inside a **section** element with **id** _titoSection_. Include some text in the section too. 
-  ```html
-    <section id="titoSection">
-      <img id="imgTito" src="tito.png" alt="Tito the dog">  		
+   ```html
+      <section id="titoSection">
+      <img id="imgTito" src="tito.png" alt="Tito the dog" />  		
       <p>
         This is Tito. He will be your tourguide! As you can see, Tito loves CoderDojo.
       </p>
     </section>
-  ```
+   ```
 
 6. Add the following code to your stylesheet, so you can see what's going on more clearly
  ```css
